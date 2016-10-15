@@ -25,9 +25,9 @@ The project is implemented in C++14 and uses the following features:
 0. Download the code or clone the repo
 0. Cd to the directory where you downloaded the code
 0. Build makefiles
-   `$ mkdir build`
-   `$ cd build`
-   `$ cmake ..`
+   0. `$ mkdir build`
+   0. `$ cd build`
+   0. `$ cmake ..`
 0. Build the code
    `$ make`
 
