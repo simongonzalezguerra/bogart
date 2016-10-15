@@ -16,7 +16,7 @@ The project is implemented in C++14 and uses the following features:
 * Move capture
 * Lambda capture expressions
 
-# Building
+# Building on Linux
 
 0. In order to build you'll need a g++-4.9 for the C++14 features. In Ubuntu 14.04 you can install it with the following commands:
   `$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test`
