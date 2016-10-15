@@ -19,9 +19,9 @@ The project is implemented in C++14 and uses the following features:
 # Building on Linux
 
 0. In order to build you'll need a g++-4.9 for the C++14 features. In Ubuntu 14.04 you can install it with the following commands:
-  `$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test`
-  `$ sudo apt-get update`
-  `$ sudo apt-get install g++-4.9`
+  0. `$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test`
+  0. `$ sudo apt-get update`
+  0. `$ sudo apt-get install g++-4.9`
 0. Download the code or clone the repo
 0. Cd to the directory where you downloaded the code
 0. Build makefiles
