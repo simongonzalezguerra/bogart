@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.8.9)
+project(bogart)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++1y -Wall -Wextra -Werror")
+
+include_directories(lib/Horde3D/include/)
+include_directories(lib/glfw3/include/)
+link_directories(lib/Horde3D/lib/)
+link_directories(lib/glfw3/lib/)
+include_directories(lib/glm/include/)
+include_directories (./)
+add_subdirectory (bogart)
+add_subdirectory (test)

@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="shaders/model.shader" />
+
+	<Uniform name="matSpecParams" a="0.9" b="0.9" c="0.9" d="0.179688" />
+</Material>

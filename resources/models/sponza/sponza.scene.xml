@@ -1,0 +1,42 @@
+<Model name="sponza" geometry="models/sponza/sponza.geo">
+
+	<Mesh name="object4" material="models/sponza/sp_00_luk_mal1.material.xml" rx="90" ry="0" rz="-0" batchStart="0" batchCount="12096" vertRStart="0" vertREnd="8884" />
+	<Mesh name="arcs_floo0" material="models/sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="12096" batchCount="4320" vertRStart="8885" vertREnd="11016" />
+	<Mesh name="arcs_small" material="models/sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="16416" batchCount="1260" vertRStart="11017" vertREnd="11770" />
+	<Mesh name="object31" material="models/sponza/sp_01_stub_baza_.material.xml" rx="90" ry="0" rz="-0" batchStart="17676" batchCount="1440" vertRStart="11771" vertREnd="12847" />
+	<Mesh name="pillar_flo" material="models/sponza/sp_00_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="19116" batchCount="384" vertRStart="12848" vertREnd="13167" />
+	<Mesh name="arcs_long" material="models/sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="19500" batchCount="5100" vertRStart="13168" vertREnd="15819" />
+	<Mesh name="object6" material="models/sponza/sp_svod_kapitel.material.xml" rx="90" ry="0" rz="-0" batchStart="24600" batchCount="3060" vertRStart="15820" vertREnd="18269" />
+	<Mesh name="arcs_03" material="models/sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="27660" batchCount="3456" vertRStart="18270" vertREnd="21471" />
+	<Mesh name="object3" material="models/sponza/sp_01_stup_baza.material.xml" rx="90" ry="0" rz="-0" batchStart="31116" batchCount="14931" vertRStart="21472" vertREnd="33259" />
+	<Mesh name="doors" material="models/sponza/sp_00_vrata_kock.material.xml" rx="90" ry="0" rz="-0" batchStart="46047" batchCount="714" vertRStart="33260" vertREnd="33774">
+		<Mesh name="#doors" material="models/sponza/sp_00_vrata_krug.material.xml" batchStart="46761" batchCount="2439" vertRStart="33775" vertREnd="35794" />
+	</Mesh>
+	<Mesh name="pillar_qua" material="models/sponza/sp_01_stub.material.xml" rx="90" ry="0" rz="-0" batchStart="49200" batchCount="192" vertRStart="35795" vertREnd="35922" />
+	<Mesh name="arcs_02" material="models/sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="49392" batchCount="24144" vertRStart="35923" vertREnd="58532" />
+	<Mesh name="outside01" material="models/sponza/sp_zid_vani.material.xml" rx="90" ry="0" rz="-0" batchStart="73536" batchCount="144" vertRStart="58533" vertREnd="58604" />
+	<Mesh name="round_hole" material="models/sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="73680" batchCount="25056" vertRStart="58605" vertREnd="80852" />
+	<Mesh name="object23" material="models/sponza/sp_vijenac.material.xml" rx="90" ry="0" rz="-0" batchStart="98736" batchCount="2304" vertRStart="80853" vertREnd="82460" />
+	<Mesh name="ceiling" material="models/sponza/sp_00_svod.material.xml" rx="90" ry="0" rz="-0" batchStart="101040" batchCount="31110" vertRStart="82461" vertREnd="102318" />
+	<Mesh name="object32" material="models/sponza/sp_svod_kapitel.material.xml" rx="90" ry="0" rz="-0" batchStart="132150" batchCount="10320" vertRStart="102319" vertREnd="110636" />
+	<Mesh name="arcs_01" material="models/sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="142470" batchCount="6324" vertRStart="110637" vertREnd="116546" />
+	<Mesh name="object21" material="models/sponza/sp_00_svod.material.xml" rx="90" ry="0" rz="-0" batchStart="148794" batchCount="2712" vertRStart="116547" vertREnd="117656" />
+	<Mesh name="object28" material="models/sponza/sp_01_stub_baza.material.xml" rx="90" ry="0" rz="-0" batchStart="151506" batchCount="2736" vertRStart="117657" vertREnd="119352" />
+	<Mesh name="pillar_cor" material="models/sponza/sp_01_stub_kut.material.xml" rx="90" ry="0" rz="-0" batchStart="154242" batchCount="144" vertRStart="119353" vertREnd="119456" />
+	<Mesh name="pillar_rou" material="models/sponza/sp_01_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="154386" batchCount="3456" vertRStart="119457" vertREnd="122792" />
+	<Mesh name="relief" material="models/sponza/sp_02_reljef.material.xml" rx="90" ry="0" rz="-0" batchStart="157842" batchCount="45" vertRStart="122793" vertREnd="122813" />
+	<Mesh name="puillar_fl" material="models/sponza/sp_00_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="157887" batchCount="312" vertRStart="122814" vertREnd="123045" />
+	<Mesh name="object27" material="models/sponza/sp_00_luk_mal1.material.xml" rx="90" ry="0" rz="-0" batchStart="158199" batchCount="2544" vertRStart="123046" vertREnd="124909" />
+	<Mesh name="arcs_04" material="models/sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="160743" batchCount="16704" vertRStart="124910" vertREnd="140513" />
+	<Mesh name="object5" material="models/sponza/sp_svod_kapitel.material.xml" rx="90" ry="0" rz="-0" batchStart="177447" batchCount="4368" vertRStart="140514" vertREnd="143999" />
+	<Mesh name="walls" material="models/sponza/sp_00_prozor.material.xml" rx="90" ry="0" rz="-0" batchStart="181815" batchCount="12" vertRStart="144000" vertREnd="144009">
+		<Mesh name="#walls" material="models/sponza/sp_00_vrata_krug.material.xml" batchStart="181827" batchCount="2439" vertRStart="144010" vertREnd="145968" />
+		<Mesh name="#walls" material="models/sponza/sp_00_pod.material.xml" batchStart="184266" batchCount="210" vertRStart="145969" vertREnd="146058" />
+		<Mesh name="#walls" material="models/sponza/sp_00_zid.material.xml" batchStart="184476" batchCount="7494" vertRStart="146059" vertREnd="149592" />
+	</Mesh>
+	<Mesh name="arcs_floor" material="models/sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="191970" batchCount="576" vertRStart="149593" vertREnd="149900" />
+	<Mesh name="object19" material="models/sponza/sp_00_luk_mal1.material.xml" rx="90" ry="0" rz="-0" batchStart="192546" batchCount="1920" vertRStart="149901" vertREnd="151203" />
+	<Mesh name="windows" material="models/sponza/sp_00_prozor.material.xml" rx="90" ry="0" rz="-0" batchStart="194466" batchCount="870" vertRStart="151204" vertREnd="151853" />
+	<Mesh name="parapet" material="models/sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="195336" batchCount="690" vertRStart="151854" vertREnd="152232" />
+	<Mesh name="holes" material="models/sponza/sp_01_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="196026" batchCount="3300" vertRStart="152233" vertREnd="154810" />
+</Model>

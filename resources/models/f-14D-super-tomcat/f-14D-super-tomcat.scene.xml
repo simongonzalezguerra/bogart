@@ -1,0 +1,32 @@
+<Model name="f-14D-super-tomcat" geometry="models/f-14D-super-tomcat/f-14D-super-tomcat.geo">
+
+	<Mesh name="RudderR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="0" batchCount="36" vertRStart="0" vertREnd="35" />
+	<Mesh name="Glass_Canopy01" material="models/f-14D-super-tomcat/glass.material.xml" rx="90" ry="0" rz="-0" batchStart="36" batchCount="300" vertRStart="36" vertREnd="335" />
+	<Mesh name="AileronR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="336" batchCount="36" vertRStart="336" vertREnd="371" />
+	<Mesh name="LOD0" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="372" batchCount="9243" vertRStart="372" vertREnd="9614" />
+	<Mesh name="Canopy01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="9615" batchCount="948" vertRStart="9615" vertREnd="10562" />
+	<Mesh name="EngineR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="10563" batchCount="336" vertRStart="10563" vertREnd="10898" />
+	<Mesh name="FlapL02" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="10899" batchCount="42" vertRStart="10899" vertREnd="10940" />
+	<Mesh name="Glass_HUD" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="10941" batchCount="12" vertRStart="10941" vertREnd="10952" />
+	<Mesh name="VoletL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="10953" batchCount="48" vertRStart="10953" vertREnd="11000" />
+	<Mesh name="Glass01" material="models/f-14D-super-tomcat/glass.material.xml" rx="90" ry="0" rz="-0" batchStart="11001" batchCount="120" vertRStart="11001" vertREnd="11120" />
+	<Mesh name="AileronL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="11121" batchCount="36" vertRStart="11121" vertREnd="11156" />
+	<Mesh name="EngineL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="11157" batchCount="336" vertRStart="11157" vertREnd="11492" />
+	<Mesh name="Eject_Seat01" material="models/f-14D-super-tomcat/seat.material.xml" rx="90" ry="0" rz="-0" batchStart="11493" batchCount="228" vertRStart="11493" vertREnd="11720" />
+	<Mesh name="BrakeL02" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="11721" batchCount="144" vertRStart="11721" vertREnd="11864" />
+	<Mesh name="VoletR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="11865" batchCount="48" vertRStart="11865" vertREnd="11912" />
+	<Mesh name="Eject_Seat02" material="models/f-14D-super-tomcat/seat.material.xml" rx="90" ry="0" rz="-0" batchStart="11913" batchCount="228" vertRStart="11913" vertREnd="12140" />
+	<Mesh name="FlapL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="12141" batchCount="36" vertRStart="12141" vertREnd="12176" />
+	<Mesh name="RudderL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="12177" batchCount="36" vertRStart="12177" vertREnd="12212" />
+	<Mesh name="BrakeL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="12213" batchCount="180" vertRStart="12213" vertREnd="12392" />
+	<Mesh name="ElevatorR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="12393" batchCount="156" vertRStart="12393" vertREnd="12548" />
+	<Mesh name="VoletL02" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="12549" batchCount="48" vertRStart="12549" vertREnd="12596" />
+	<Mesh name="WingL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="12597" batchCount="288" vertRStart="12597" vertREnd="12884" />
+	<Mesh name="Pilot02" material="models/f-14D-super-tomcat/pilot.material.xml" rx="90" ry="0" rz="-0" batchStart="12885" batchCount="2295" vertRStart="12885" vertREnd="15179" />
+	<Mesh name="VoletR02" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="15180" batchCount="48" vertRStart="15180" vertREnd="15227" />
+	<Mesh name="FlapR02" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="15228" batchCount="42" vertRStart="15228" vertREnd="15269" />
+	<Mesh name="FlapR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="15270" batchCount="36" vertRStart="15270" vertREnd="15305" />
+	<Mesh name="ElevatorL01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="15306" batchCount="156" vertRStart="15306" vertREnd="15461" />
+	<Mesh name="Pilot01" material="models/f-14D-super-tomcat/pilot.material.xml" rx="90" ry="0" rz="-0" batchStart="15462" batchCount="2295" vertRStart="15462" vertREnd="17756" />
+	<Mesh name="WingR01" material="models/f-14D-super-tomcat/plane.material.xml" rx="90" ry="0" rz="-0" batchStart="17757" batchCount="288" vertRStart="17757" vertREnd="18044" />
+</Model>

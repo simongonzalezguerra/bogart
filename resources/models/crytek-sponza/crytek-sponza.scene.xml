@@ -1,0 +1,854 @@
+<Model name="crytek-sponza" geometry="models/crytek-sponza/crytek-sponza.geo">
+
+	<Mesh name="Cube" material="models/crytek-sponza/Material.material.xml" batchStart="0" batchCount="36" vertRStart="0" vertREnd="23" />
+	<Mesh name="pillar_cor" material="models/crytek-sponza/sp_01_stub_kut.material.xml" rx="90" ry="0" rz="-0" batchStart="36" batchCount="144" vertRStart="24" vertREnd="127" />
+	<Mesh name="object21" material="models/crytek-sponza/sp_00_svod.material.xml" rx="90" ry="0" rz="-0" batchStart="180" batchCount="2712" vertRStart="128" vertREnd="1237" />
+	<Mesh name="object31" material="models/crytek-sponza/sp_01_stub_baza_.material.xml" rx="90" ry="0" rz="-0" batchStart="2892" batchCount="1440" vertRStart="1238" vertREnd="2314" />
+	<Mesh name="outside01" material="models/crytek-sponza/sp_zid_vani.material.xml" rx="90" ry="0" rz="-0" batchStart="4332" batchCount="144" vertRStart="2315" vertREnd="2386" />
+	<Mesh name="object6" material="models/crytek-sponza/sp_svod_kapitel.material.xml" rx="90" ry="0" rz="-0" batchStart="4476" batchCount="3060" vertRStart="2387" vertREnd="4836" />
+	<Mesh name="arcs_long" material="models/crytek-sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="7536" batchCount="5100" vertRStart="4837" vertREnd="7488" />
+	<Mesh name="walls" material="models/crytek-sponza/sp_00_prozor.material.xml" rx="90" ry="0" rz="-0" batchStart="12636" batchCount="12" vertRStart="7489" vertREnd="7498">
+		<Mesh name="#walls" material="models/crytek-sponza/sp_00_zid.material.xml" batchStart="12648" batchCount="7494" vertRStart="7499" vertREnd="11032" />
+		<Mesh name="#walls" material="models/crytek-sponza/sp_00_pod.material.xml" batchStart="20142" batchCount="210" vertRStart="11033" vertREnd="11122" />
+		<Mesh name="#walls" material="models/crytek-sponza/sp_00_vrata_krug.material.xml" batchStart="20352" batchCount="2439" vertRStart="11123" vertREnd="13081" />
+	</Mesh>
+	<Mesh name="parapet" material="models/crytek-sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="22791" batchCount="690" vertRStart="13082" vertREnd="13460" />
+	<Mesh name="arcs_04" material="models/crytek-sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="23481" batchCount="16704" vertRStart="13461" vertREnd="29064" />
+	<Mesh name="arcs_01" material="models/crytek-sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="40185" batchCount="6324" vertRStart="29065" vertREnd="34974" />
+	<Mesh name="holes" material="models/crytek-sponza/sp_01_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="46509" batchCount="3300" vertRStart="34975" vertREnd="37552" />
+	<Mesh name="arcs_floor" material="models/crytek-sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="49809" batchCount="576" vertRStart="37553" vertREnd="37860" />
+	<Mesh name="ceiling" material="models/crytek-sponza/sp_00_svod.material.xml" rx="90" ry="0" rz="-0" batchStart="50385" batchCount="31110" vertRStart="37861" vertREnd="57718" />
+	<Mesh name="round_hole" material="models/crytek-sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="81495" batchCount="25056" vertRStart="57719" vertREnd="79966" />
+	<Mesh name="arcs_03" material="models/crytek-sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="106551" batchCount="3456" vertRStart="79967" vertREnd="83168" />
+	<Mesh name="puillar_fl" material="models/crytek-sponza/sp_00_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="110007" batchCount="312" vertRStart="83169" vertREnd="83400" />
+	<Mesh name="windows" material="models/crytek-sponza/sp_00_prozor.material.xml" rx="90" ry="0" rz="-0" batchStart="110319" batchCount="870" vertRStart="83401" vertREnd="84050" />
+	<Mesh name="pillar_qua" material="models/crytek-sponza/sp_01_stub.material.xml" rx="90" ry="0" rz="-0" batchStart="111189" batchCount="192" vertRStart="84051" vertREnd="84178" />
+	<Mesh name="object5" material="models/crytek-sponza/sp_svod_kapitel.material.xml" rx="90" ry="0" rz="-0" batchStart="111381" batchCount="4368" vertRStart="84179" vertREnd="87664" />
+	<Mesh name="object27" material="models/crytek-sponza/sp_00_luk_mal1.material.xml" rx="90" ry="0" rz="-0" batchStart="115749" batchCount="2544" vertRStart="87665" vertREnd="89528" />
+	<Mesh name="object28" material="models/crytek-sponza/sp_01_stub_baza.material.xml" rx="90" ry="0" rz="-0" batchStart="118293" batchCount="2736" vertRStart="89529" vertREnd="91224" />
+	<Mesh name="object23" material="models/crytek-sponza/sp_vijenac.material.xml" rx="90" ry="0" rz="-0" batchStart="121029" batchCount="2304" vertRStart="91225" vertREnd="92832" />
+	<Mesh name="arcs_02" material="models/crytek-sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="123333" batchCount="24144" vertRStart="92833" vertREnd="115442" />
+	<Mesh name="arcs_floo0" material="models/crytek-sponza/sp_00_luk_mali.material.xml" rx="90" ry="0" rz="-0" batchStart="147477" batchCount="4320" vertRStart="115443" vertREnd="117574" />
+	<Mesh name="arcs_small" material="models/crytek-sponza/sp_01_luk_a.material.xml" rx="90" ry="0" rz="-0" batchStart="151797" batchCount="1260" vertRStart="117575" vertREnd="118328" />
+	<Mesh name="object19" material="models/crytek-sponza/sp_00_luk_mal1.material.xml" rx="90" ry="0" rz="-0" batchStart="153057" batchCount="1920" vertRStart="118329" vertREnd="119631" />
+	<Mesh name="relief" material="models/crytek-sponza/sp_02_reljef.material.xml" rx="90" ry="0" rz="-0" batchStart="154977" batchCount="45" vertRStart="119632" vertREnd="119652" />
+	<Mesh name="object32" material="models/crytek-sponza/sp_svod_kapitel.material.xml" rx="90" ry="0" rz="-0" batchStart="155022" batchCount="10320" vertRStart="119653" vertREnd="127970" />
+	<Mesh name="object3" material="models/crytek-sponza/sp_01_stup_baza.material.xml" rx="90" ry="0" rz="-0" batchStart="165342" batchCount="14931" vertRStart="127971" vertREnd="139758" />
+	<Mesh name="object4" material="models/crytek-sponza/sp_00_luk_mal1.material.xml" rx="90" ry="0" rz="-0" batchStart="180273" batchCount="12096" vertRStart="139759" vertREnd="148643" />
+	<Mesh name="doors" material="models/crytek-sponza/sp_00_vrata_kock.material.xml" rx="90" ry="0" rz="-0" batchStart="192369" batchCount="714" vertRStart="148644" vertREnd="149158">
+		<Mesh name="#doors" material="models/crytek-sponza/sp_00_vrata_krug.material.xml" batchStart="193083" batchCount="2439" vertRStart="149159" vertREnd="151178" />
+	</Mesh>
+	<Mesh name="pillar_rou" material="models/crytek-sponza/sp_01_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="195522" batchCount="3456" vertRStart="151179" vertREnd="154514" />
+	<Mesh name="pillar_flo" material="models/crytek-sponza/sp_00_stup.material.xml" rx="90" ry="0" rz="-0" batchStart="198978" batchCount="384" vertRStart="154515" vertREnd="154834" />
+	<Mesh name="sponza_25" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="199362" batchCount="786" vertRStart="154835" vertREnd="155620" />
+	<Mesh name="sponza_55" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="200148" batchCount="120" vertRStart="155621" vertREnd="155740" />
+	<Mesh name="sponza_56" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="200268" batchCount="120" vertRStart="155741" vertREnd="155860" />
+	<Mesh name="sponza_181" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="200388" batchCount="54" vertRStart="155861" vertREnd="155914" />
+	<Mesh name="sponza_95" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="200442" batchCount="222" vertRStart="155915" vertREnd="156136" />
+	<Mesh name="sponza_110" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="200664" batchCount="264" vertRStart="156137" vertREnd="156400" />
+	<Mesh name="sponza_160" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="200928" batchCount="132" vertRStart="156401" vertREnd="156532" />
+	<Mesh name="sponza_98" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="201060" batchCount="264" vertRStart="156533" vertREnd="156796" />
+	<Mesh name="sponza_68" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="201324" batchCount="54" vertRStart="156797" vertREnd="156850" />
+	<Mesh name="sponza_364" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="201378" batchCount="3732" vertRStart="156851" vertREnd="160582" />
+	<Mesh name="sponza_104" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="205110" batchCount="264" vertRStart="160583" vertREnd="160846" />
+	<Mesh name="sponza_132" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="205374" batchCount="54" vertRStart="160847" vertREnd="160900" />
+	<Mesh name="sponza_207" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="205428" batchCount="54" vertRStart="160901" vertREnd="160954" />
+	<Mesh name="sponza_195" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="205482" batchCount="132" vertRStart="160955" vertREnd="161086" />
+	<Mesh name="sponza_20" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="205614" batchCount="1644" vertRStart="161087" vertREnd="162730" />
+	<Mesh name="sponza_189" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="207258" batchCount="894" vertRStart="162731" vertREnd="163630" />
+	<Mesh name="sponza_222" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="208152" batchCount="894" vertRStart="163631" vertREnd="164530" />
+	<Mesh name="sponza_251" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="209046" batchCount="54" vertRStart="164531" vertREnd="164584" />
+	<Mesh name="sponza_47" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="209100" batchCount="480" vertRStart="164585" vertREnd="165064" />
+	<Mesh name="sponza_215" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="209580" batchCount="132" vertRStart="165065" vertREnd="165196" />
+	<Mesh name="sponza_175" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="209712" batchCount="132" vertRStart="165197" vertREnd="165328" />
+	<Mesh name="sponza_51" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="209844" batchCount="480" vertRStart="165329" vertREnd="165808" />
+	<Mesh name="sponza_229" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="210324" batchCount="54" vertRStart="165809" vertREnd="165862" />
+	<Mesh name="sponza_279" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="210378" batchCount="9924" vertRStart="165863" vertREnd="175786" />
+	<Mesh name="sponza_23" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="220302" batchCount="786" vertRStart="175787" vertREnd="176572" />
+	<Mesh name="sponza_168" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="221088" batchCount="498" vertRStart="176573" vertREnd="177070" />
+	<Mesh name="sponza_147" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="221586" batchCount="3660" vertRStart="177071" vertREnd="180730" />
+	<Mesh name="sponza_276" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="225246" batchCount="14466" vertRStart="180731" vertREnd="195196" />
+	<Mesh name="sponza_158" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="239712" batchCount="3660" vertRStart="195197" vertREnd="198856" />
+	<Mesh name="sponza_290" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="243372" batchCount="1368" vertRStart="198857" vertREnd="200224" />
+	<Mesh name="sponza_223" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="244740" batchCount="498" vertRStart="200225" vertREnd="200722" />
+	<Mesh name="sponza_292" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="245238" batchCount="1368" vertRStart="200723" vertREnd="202090" />
+	<Mesh name="sponza_247" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="246606" batchCount="54" vertRStart="202091" vertREnd="202144" />
+	<Mesh name="sponza_282" material="models/crytek-sponza/fabric_e.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="246660" batchCount="16512" vertRStart="202145" vertREnd="218656" />
+	<Mesh name="sponza_130" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="263172" batchCount="54" vertRStart="218657" vertREnd="218710" />
+	<Mesh name="sponza_227" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="263226" batchCount="54" vertRStart="218711" vertREnd="218764" />
+	<Mesh name="sponza_125" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="263280" batchCount="3660" vertRStart="218765" vertREnd="222424" />
+	<Mesh name="sponza_266" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="266940" batchCount="678" vertRStart="222425" vertREnd="223102" />
+	<Mesh name="sponza_137" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="267618" batchCount="54" vertRStart="223103" vertREnd="223156" />
+	<Mesh name="sponza_12" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="267672" batchCount="546" vertRStart="223157" vertREnd="223702" />
+	<Mesh name="sponza_81" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="268218" batchCount="264" vertRStart="223703" vertREnd="223966" />
+	<Mesh name="sponza_148" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="268482" batchCount="54" vertRStart="223967" vertREnd="224020" />
+	<Mesh name="sponza_268" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="268536" batchCount="1368" vertRStart="224021" vertREnd="225388" />
+	<Mesh name="sponza_66" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="269904" batchCount="96" vertRStart="225389" vertREnd="225484" />
+	<Mesh name="sponza_85" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="270000" batchCount="264" vertRStart="225485" vertREnd="225748" />
+	<Mesh name="sponza_74" material="models/crytek-sponza/details.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="270264" batchCount="834" vertRStart="225749" vertREnd="226582" />
+	<Mesh name="sponza_231" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="271098" batchCount="54" vertRStart="226583" vertREnd="226636" />
+	<Mesh name="sponza_26" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="271152" batchCount="786" vertRStart="226637" vertREnd="227422" />
+	<Mesh name="sponza_33" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="271938" batchCount="1188" vertRStart="227423" vertREnd="228610" />
+	<Mesh name="sponza_258" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273126" batchCount="192" vertRStart="228611" vertREnd="228802" />
+	<Mesh name="sponza_105" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273318" batchCount="264" vertRStart="228803" vertREnd="229066" />
+	<Mesh name="sponza_60" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273582" batchCount="120" vertRStart="229067" vertREnd="229186" />
+	<Mesh name="sponza_187" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273702" batchCount="54" vertRStart="229187" vertREnd="229240" />
+	<Mesh name="sponza_257" material="models/crytek-sponza/Material__47.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273756" batchCount="54" vertRStart="229241" vertREnd="229294" />
+	<Mesh name="sponza_226" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273810" batchCount="132" vertRStart="229295" vertREnd="229426" />
+	<Mesh name="sponza_303" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="273942" batchCount="576" vertRStart="229427" vertREnd="230002" />
+	<Mesh name="sponza_82" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="274518" batchCount="264" vertRStart="230003" vertREnd="230266" />
+	<Mesh name="sponza_336" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="274782" batchCount="3732" vertRStart="230267" vertREnd="233998" />
+	<Mesh name="sponza_363" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="278514" batchCount="3732" vertRStart="233999" vertREnd="237730" />
+	<Mesh name="sponza_359" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="282246" batchCount="6" vertRStart="237731" vertREnd="237736" />
+	<Mesh name="sponza_300" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="282252" batchCount="576" vertRStart="237737" vertREnd="238312" />
+	<Mesh name="sponza_102" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="282828" batchCount="264" vertRStart="238313" vertREnd="238576" />
+	<Mesh name="sponza_133" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="283092" batchCount="132" vertRStart="238577" vertREnd="238708" />
+	<Mesh name="sponza_328" material="models/crytek-sponza/fabric_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="283224" batchCount="13824" vertRStart="238709" vertREnd="252532" />
+	<Mesh name="sponza_190" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="297048" batchCount="498" vertRStart="252533" vertREnd="253030" />
+	<Mesh name="sponza_170" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="297546" batchCount="54" vertRStart="253031" vertREnd="253084" />
+	<Mesh name="sponza_124" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="297600" batchCount="5580" vertRStart="253085" vertREnd="258664" />
+	<Mesh name="sponza_241" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="303180" batchCount="132" vertRStart="258665" vertREnd="258796" />
+	<Mesh name="sponza_318" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="303312" batchCount="576" vertRStart="258797" vertREnd="259372" />
+	<Mesh name="sponza_64" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="303888" batchCount="120" vertRStart="259373" vertREnd="259492" />
+	<Mesh name="sponza_77" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="304008" batchCount="222" vertRStart="259493" vertREnd="259714" />
+	<Mesh name="sponza_330" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="304230" batchCount="6" vertRStart="259715" vertREnd="259720" />
+	<Mesh name="sponza_173" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="304236" batchCount="132" vertRStart="259721" vertREnd="259852" />
+	<Mesh name="sponza_86" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="304368" batchCount="264" vertRStart="259853" vertREnd="260116" />
+	<Mesh name="sponza_50" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="304632" batchCount="336" vertRStart="260117" vertREnd="260452" />
+	<Mesh name="sponza_356" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="304968" batchCount="810" vertRStart="260453" vertREnd="261262" />
+	<Mesh name="sponza_142" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="305778" batchCount="132" vertRStart="261263" vertREnd="261394" />
+	<Mesh name="sponza_374" material="models/crytek-sponza/vase.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="305910" batchCount="6888" vertRStart="261395" vertREnd="268282" />
+	<Mesh name="sponza_357" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="312798" batchCount="6" vertRStart="268283" vertREnd="268288" />
+	<Mesh name="sponza_230" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="312804" batchCount="132" vertRStart="268289" vertREnd="268420" />
+	<Mesh name="sponza_36" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="312936" batchCount="444" vertRStart="268421" vertREnd="268864" />
+	<Mesh name="sponza_194" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="313380" batchCount="54" vertRStart="268865" vertREnd="268918" />
+	<Mesh name="sponza_311" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="313434" batchCount="1368" vertRStart="268919" vertREnd="270286" />
+	<Mesh name="sponza_271" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="314802" batchCount="1368" vertRStart="270287" vertREnd="271654" />
+	<Mesh name="sponza_201" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="316170" batchCount="498" vertRStart="271655" vertREnd="272152" />
+	<Mesh name="sponza_265" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="316668" batchCount="1368" vertRStart="272153" vertREnd="273520" />
+	<Mesh name="sponza_54" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="318036" batchCount="336" vertRStart="273521" vertREnd="273856" />
+	<Mesh name="sponza_256" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="318372" batchCount="498" vertRStart="273857" vertREnd="274354" />
+	<Mesh name="sponza_309" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="318870" batchCount="576" vertRStart="274355" vertREnd="274930" />
+	<Mesh name="sponza_242" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="319446" batchCount="54" vertRStart="274931" vertREnd="274984" />
+	<Mesh name="sponza_370" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="319500" batchCount="6633" vertRStart="274985" vertREnd="281617">
+		<Mesh name="#sponza_370" material="models/crytek-sponza/Material__57.material.xml" batchStart="326133" batchCount="1200" vertRStart="281618" vertREnd="282817" />
+	</Mesh>
+	<Mesh name="sponza_254" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="327333" batchCount="132" vertRStart="282818" vertREnd="282949" />
+	<Mesh name="sponza_00" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="327465" batchCount="10920" vertRStart="282950" vertREnd="293869" />
+	<Mesh name="sponza_162" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="338385" batchCount="132" vertRStart="293870" vertREnd="294001" />
+	<Mesh name="sponza_103" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="338517" batchCount="264" vertRStart="294002" vertREnd="294265" />
+	<Mesh name="sponza_209" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="338781" batchCount="54" vertRStart="294266" vertREnd="294319" />
+	<Mesh name="sponza_16" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="338835" batchCount="546" vertRStart="294320" vertREnd="294865" />
+	<Mesh name="sponza_30" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="339381" batchCount="786" vertRStart="294866" vertREnd="295651" />
+	<Mesh name="sponza_97" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="340167" batchCount="222" vertRStart="295652" vertREnd="295873" />
+	<Mesh name="sponza_213" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="340389" batchCount="3660" vertRStart="295874" vertREnd="299533" />
+	<Mesh name="sponza_325" material="models/crytek-sponza/fabric_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="344049" batchCount="14592" vertRStart="299534" vertREnd="314125" />
+	<Mesh name="sponza_212" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="358641" batchCount="498" vertRStart="314126" vertREnd="314623" />
+	<Mesh name="sponza_01" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="359139" batchCount="6633" vertRStart="314624" vertREnd="321256">
+		<Mesh name="#sponza_01" material="models/crytek-sponza/Material__57.material.xml" batchStart="365772" batchCount="1404" vertRStart="321257" vertREnd="322660" />
+	</Mesh>
+	<Mesh name="sponza_67" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="367176" batchCount="840" vertRStart="322661" vertREnd="323500" />
+	<Mesh name="sponza_299" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="368016" batchCount="1368" vertRStart="323501" vertREnd="324868" />
+	<Mesh name="sponza_333" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="369384" batchCount="6" vertRStart="324869" vertREnd="324874" />
+	<Mesh name="sponza_169" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="369390" batchCount="3660" vertRStart="324875" vertREnd="328534" />
+	<Mesh name="sponza_315" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="373050" batchCount="576" vertRStart="328535" vertREnd="329110" />
+	<Mesh name="sponza_334" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="373626" batchCount="4923" vertRStart="329111" vertREnd="334033" />
+	<Mesh name="sponza_128" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="378549" batchCount="54" vertRStart="334034" vertREnd="334087" />
+	<Mesh name="sponza_121" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="378603" batchCount="1020" vertRStart="334088" vertREnd="335107" />
+	<Mesh name="sponza_354" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="379623" batchCount="3732" vertRStart="335108" vertREnd="338839" />
+	<Mesh name="sponza_185" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="383355" batchCount="54" vertRStart="338840" vertREnd="338893" />
+	<Mesh name="sponza_43" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="383409" batchCount="480" vertRStart="338894" vertREnd="339373" />
+	<Mesh name="sponza_155" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="383889" batchCount="132" vertRStart="339374" vertREnd="339505" />
+	<Mesh name="sponza_08" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="384021" batchCount="6996" vertRStart="339506" vertREnd="346501" />
+	<Mesh name="sponza_145" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="391017" batchCount="894" vertRStart="346502" vertREnd="347401" />
+	<Mesh name="sponza_358" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="391911" batchCount="6" vertRStart="347402" vertREnd="347407" />
+	<Mesh name="sponza_61" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="391917" batchCount="120" vertRStart="347408" vertREnd="347527" />
+	<Mesh name="sponza_293" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="392037" batchCount="1368" vertRStart="347528" vertREnd="348895" />
+	<Mesh name="sponza_57" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="393405" batchCount="120" vertRStart="348896" vertREnd="349015" />
+	<Mesh name="sponza_307" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="393525" batchCount="1368" vertRStart="349016" vertREnd="350383" />
+	<Mesh name="sponza_295" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="394893" batchCount="1368" vertRStart="350384" vertREnd="351751" />
+	<Mesh name="sponza_344" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="396261" batchCount="1674" vertRStart="351752" vertREnd="353425" />
+	<Mesh name="sponza_10" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="397935" batchCount="546" vertRStart="353426" vertREnd="353971" />
+	<Mesh name="sponza_210" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="398481" batchCount="132" vertRStart="353972" vertREnd="354103" />
+	<Mesh name="sponza_289" material="models/crytek-sponza/fabric_d.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="398613" batchCount="16512" vertRStart="354104" vertREnd="370615" />
+	<Mesh name="sponza_332" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="415125" batchCount="6" vertRStart="370616" vertREnd="370621" />
+	<Mesh name="sponza_27" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="415131" batchCount="1188" vertRStart="370622" vertREnd="371809" />
+	<Mesh name="sponza_72" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="416319" batchCount="72" vertRStart="371810" vertREnd="371881">
+		<Mesh name="#sponza_72" material="models/crytek-sponza/details.material.xml" batchStart="416391" batchCount="246" vertRStart="371882" vertREnd="372127" />
+	</Mesh>
+	<Mesh name="sponza_177" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="416637" batchCount="132" vertRStart="372128" vertREnd="372259" />
+	<Mesh name="sponza_352" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="416769" batchCount="4923" vertRStart="372260" vertREnd="377182" />
+	<Mesh name="sponza_259" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="421692" batchCount="678" vertRStart="377183" vertREnd="377860" />
+	<Mesh name="sponza_144" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="422370" batchCount="132" vertRStart="377861" vertREnd="377992" />
+	<Mesh name="sponza_13" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="422502" batchCount="546" vertRStart="377993" vertREnd="378538" />
+	<Mesh name="sponza_172" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="423048" batchCount="54" vertRStart="378539" vertREnd="378592" />
+	<Mesh name="sponza_87" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="423102" batchCount="264" vertRStart="378593" vertREnd="378856" />
+	<Mesh name="sponza_204" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="423366" batchCount="132" vertRStart="378857" vertREnd="378988" />
+	<Mesh name="sponza_161" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="423498" batchCount="54" vertRStart="378989" vertREnd="379042" />
+	<Mesh name="sponza_246" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="423552" batchCount="3660" vertRStart="379043" vertREnd="382702" />
+	<Mesh name="sponza_224" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="427212" batchCount="3660" vertRStart="382703" vertREnd="386362" />
+	<Mesh name="sponza_298" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="430872" batchCount="1368" vertRStart="386363" vertREnd="387730" />
+	<Mesh name="sponza_361" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="432240" batchCount="4923" vertRStart="387731" vertREnd="392653" />
+	<Mesh name="sponza_59" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="437163" batchCount="120" vertRStart="392654" vertREnd="392773" />
+	<Mesh name="sponza_139" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="437283" batchCount="54" vertRStart="392774" vertREnd="392827" />
+	<Mesh name="sponza_249" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="437337" batchCount="54" vertRStart="392828" vertREnd="392881" />
+	<Mesh name="sponza_308" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="437391" batchCount="1368" vertRStart="392882" vertREnd="394249" />
+	<Mesh name="sponza_342" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="438759" batchCount="6" vertRStart="394250" vertREnd="394255" />
+	<Mesh name="sponza_149" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="438765" batchCount="132" vertRStart="394256" vertREnd="394387" />
+	<Mesh name="sponza_186" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="438897" batchCount="132" vertRStart="394388" vertREnd="394519" />
+	<Mesh name="sponza_93" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="439029" batchCount="264" vertRStart="394520" vertREnd="394783" />
+	<Mesh name="sponza_263" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="439293" batchCount="1368" vertRStart="394784" vertREnd="396151" />
+	<Mesh name="sponza_192" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="440661" batchCount="54" vertRStart="396152" vertREnd="396205" />
+	<Mesh name="sponza_216" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="440715" batchCount="54" vertRStart="396206" vertREnd="396259" />
+	<Mesh name="sponza_243" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="440769" batchCount="132" vertRStart="396260" vertREnd="396391" />
+	<Mesh name="sponza_159" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="440901" batchCount="54" vertRStart="396392" vertREnd="396445" />
+	<Mesh name="sponza_273" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="440955" batchCount="1368" vertRStart="396446" vertREnd="397813" />
+	<Mesh name="sponza_180" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="442323" batchCount="3660" vertRStart="397814" vertREnd="401473" />
+	<Mesh name="sponza_262" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="445983" batchCount="678" vertRStart="401474" vertREnd="402151" />
+	<Mesh name="sponza_283" material="models/crytek-sponza/fabric_d.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="446661" batchCount="16512" vertRStart="402152" vertREnd="418663" />
+	<Mesh name="sponza_22" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="463173" batchCount="1188" vertRStart="418664" vertREnd="419851" />
+	<Mesh name="sponza_373" material="models/crytek-sponza/vase.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="464361" batchCount="6888" vertRStart="419852" vertREnd="426739" />
+	<Mesh name="sponza_301" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="471249" batchCount="1368" vertRStart="426740" vertREnd="428107" />
+	<Mesh name="sponza_106" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="472617" batchCount="264" vertRStart="428108" vertREnd="428371" />
+	<Mesh name="sponza_261" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="472881" batchCount="1368" vertRStart="428372" vertREnd="429739" />
+	<Mesh name="sponza_184" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="474249" batchCount="132" vertRStart="429740" vertREnd="429871" />
+	<Mesh name="sponza_138" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="474381" batchCount="132" vertRStart="429872" vertREnd="430003" />
+	<Mesh name="sponza_378" material="models/crytek-sponza/Material__25.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="474513" batchCount="4563" vertRStart="430004" vertREnd="434566">
+		<Mesh name="#sponza_378" material="models/crytek-sponza/Material__298.material.xml" batchStart="479076" batchCount="4086" vertRStart="434567" vertREnd="438652" />
+	</Mesh>
+	<Mesh name="sponza_92" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="483162" batchCount="264" vertRStart="438653" vertREnd="438916" />
+	<Mesh name="sponza_35" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="483426" batchCount="612" vertRStart="438917" vertREnd="439528" />
+	<Mesh name="sponza_100" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="484038" batchCount="264" vertRStart="439529" vertREnd="439792" />
+	<Mesh name="sponza_171" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="484302" batchCount="132" vertRStart="439793" vertREnd="439924" />
+	<Mesh name="sponza_197" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="484434" batchCount="132" vertRStart="439925" vertREnd="440056" />
+	<Mesh name="sponza_264" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="484566" batchCount="678" vertRStart="440057" vertREnd="440734" />
+	<Mesh name="sponza_157" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="485244" batchCount="498" vertRStart="440735" vertREnd="441232" />
+	<Mesh name="sponza_09" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="485742" batchCount="546" vertRStart="441233" vertREnd="441778" />
+	<Mesh name="sponza_350" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="486288" batchCount="6" vertRStart="441779" vertREnd="441784" />
+	<Mesh name="sponza_355" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="486294" batchCount="3732" vertRStart="441785" vertREnd="445516" />
+	<Mesh name="sponza_122" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="490026" batchCount="48" vertRStart="445517" vertREnd="445564" />
+	<Mesh name="sponza_255" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="490074" batchCount="894" vertRStart="445565" vertREnd="446464" />
+	<Mesh name="sponza_78" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="490968" batchCount="264" vertRStart="446465" vertREnd="446728" />
+	<Mesh name="sponza_245" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="491232" batchCount="498" vertRStart="446729" vertREnd="447226" />
+	<Mesh name="sponza_127" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="491730" batchCount="132" vertRStart="447227" vertREnd="447358" />
+	<Mesh name="sponza_11" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="491862" batchCount="546" vertRStart="447359" vertREnd="447904" />
+	<Mesh name="sponza_284" material="models/crytek-sponza/fabric_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="492408" batchCount="16512" vertRStart="447905" vertREnd="464416" />
+	<Mesh name="sponza_115" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="508920" batchCount="222" vertRStart="464417" vertREnd="464638" />
+	<Mesh name="sponza_84" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="509142" batchCount="264" vertRStart="464639" vertREnd="464902" />
+	<Mesh name="sponza_381" material="models/crytek-sponza/roof.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="509406" batchCount="41964" vertRStart="464903" vertREnd="506866" />
+	<Mesh name="sponza_367" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="551370" batchCount="6633" vertRStart="506867" vertREnd="513499">
+		<Mesh name="#sponza_367" material="models/crytek-sponza/Material__57.material.xml" batchStart="558003" batchCount="1404" vertRStart="513500" vertREnd="514903" />
+	</Mesh>
+	<Mesh name="sponza_38" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="559407" batchCount="336" vertRStart="514904" vertREnd="515239" />
+	<Mesh name="sponza_69" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="559743" batchCount="108" vertRStart="515240" vertREnd="515347" />
+	<Mesh name="sponza_322" material="models/crytek-sponza/fabric_f.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="559851" batchCount="14592" vertRStart="515348" vertREnd="529939" />
+	<Mesh name="sponza_118" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="574443" batchCount="1020" vertRStart="529940" vertREnd="530959" />
+	<Mesh name="sponza_316" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="575463" batchCount="1368" vertRStart="530960" vertREnd="532327" />
+	<Mesh name="sponza_116" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="576831" batchCount="150" vertRStart="532328" vertREnd="532477" />
+	<Mesh name="sponza_353" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="576981" batchCount="1674" vertRStart="532478" vertREnd="534151" />
+	<Mesh name="sponza_280" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="578655" batchCount="13266" vertRStart="534152" vertREnd="547417" />
+	<Mesh name="sponza_314" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="591921" batchCount="1368" vertRStart="547418" vertREnd="548785" />
+	<Mesh name="sponza_360" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="593289" batchCount="6" vertRStart="548786" vertREnd="548791" />
+	<Mesh name="sponza_310" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="593295" batchCount="1368" vertRStart="548792" vertREnd="550159" />
+	<Mesh name="sponza_286" material="models/crytek-sponza/fabric_d.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="594663" batchCount="16512" vertRStart="550160" vertREnd="566671" />
+	<Mesh name="sponza_06" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="611175" batchCount="300" vertRStart="566672" vertREnd="566971" />
+	<Mesh name="sponza_164" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="611475" batchCount="132" vertRStart="566972" vertREnd="567103" />
+	<Mesh name="sponza_270" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="611607" batchCount="678" vertRStart="567104" vertREnd="567781" />
+	<Mesh name="sponza_131" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="612285" batchCount="132" vertRStart="567782" vertREnd="567913" />
+	<Mesh name="sponza_70" material="models/crytek-sponza/details.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="612417" batchCount="480" vertRStart="567914" vertREnd="568393" />
+	<Mesh name="sponza_287" material="models/crytek-sponza/fabric_e.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="612897" batchCount="16512" vertRStart="568394" vertREnd="584905" />
+	<Mesh name="sponza_199" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="629409" batchCount="132" vertRStart="584906" vertREnd="585037" />
+	<Mesh name="sponza_40" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="629541" batchCount="336" vertRStart="585038" vertREnd="585373" />
+	<Mesh name="sponza_75" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="629877" batchCount="150" vertRStart="585374" vertREnd="585523" />
+	<Mesh name="sponza_76" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="630027" batchCount="222" vertRStart="585524" vertREnd="585745" />
+	<Mesh name="sponza_140" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="630249" batchCount="132" vertRStart="585746" vertREnd="585877" />
+	<Mesh name="sponza_205" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="630381" batchCount="54" vertRStart="585878" vertREnd="585931" />
+	<Mesh name="sponza_351" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="630435" batchCount="6" vertRStart="585932" vertREnd="585937" />
+	<Mesh name="sponza_200" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="630441" batchCount="894" vertRStart="585938" vertREnd="586837" />
+	<Mesh name="sponza_79" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="631335" batchCount="264" vertRStart="586838" vertREnd="587101" />
+	<Mesh name="sponza_46" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="631599" batchCount="336" vertRStart="587102" vertREnd="587437" />
+	<Mesh name="sponza_156" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="631935" batchCount="894" vertRStart="587438" vertREnd="588337" />
+	<Mesh name="sponza_05" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="632829" batchCount="24" vertRStart="588338" vertREnd="588361" />
+	<Mesh name="sponza_275" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="632853" batchCount="17790" vertRStart="588362" vertREnd="606151" />
+	<Mesh name="sponza_382" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="650643" batchCount="30" vertRStart="606152" vertREnd="606181" />
+	<Mesh name="sponza_101" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="650673" batchCount="264" vertRStart="606182" vertREnd="606445" />
+	<Mesh name="sponza_15" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="650937" batchCount="546" vertRStart="606446" vertREnd="606991" />
+	<Mesh name="sponza_34" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="651483" batchCount="612" vertRStart="606992" vertREnd="607603" />
+	<Mesh name="sponza_80" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="652095" batchCount="264" vertRStart="607604" vertREnd="607867" />
+	<Mesh name="sponza_267" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="652359" batchCount="678" vertRStart="607868" vertREnd="608545" />
+	<Mesh name="sponza_91" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="653037" batchCount="264" vertRStart="608546" vertREnd="608809" />
+	<Mesh name="sponza_338" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="653301" batchCount="810" vertRStart="608810" vertREnd="609619" />
+	<Mesh name="sponza_228" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="654111" batchCount="132" vertRStart="609620" vertREnd="609751" />
+	<Mesh name="sponza_291" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="654243" batchCount="576" vertRStart="609752" vertREnd="610327" />
+	<Mesh name="sponza_109" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="654819" batchCount="264" vertRStart="610328" vertREnd="610591" />
+	<Mesh name="sponza_345" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="655083" batchCount="3732" vertRStart="610592" vertREnd="614323" />
+	<Mesh name="sponza_343" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="658815" batchCount="4923" vertRStart="614324" vertREnd="619246" />
+	<Mesh name="sponza_117" material="models/crytek-sponza/floor.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="663738" batchCount="15" vertRStart="619247" vertREnd="619261" />
+	<Mesh name="sponza_178" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="663753" batchCount="894" vertRStart="619262" vertREnd="620161" />
+	<Mesh name="sponza_03" material="models/crytek-sponza/Material__298.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="664647" batchCount="4086" vertRStart="620162" vertREnd="624247" />
+	<Mesh name="sponza_277" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="668733" batchCount="6612" vertRStart="624248" vertREnd="630859" />
+	<Mesh name="sponza_63" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="675345" batchCount="120" vertRStart="630860" vertREnd="630979" />
+	<Mesh name="sponza_362" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="675465" batchCount="1674" vertRStart="630980" vertREnd="632653" />
+	<Mesh name="sponza_349" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="677139" batchCount="6" vertRStart="632654" vertREnd="632659" />
+	<Mesh name="sponza_225" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="677145" batchCount="54" vertRStart="632660" vertREnd="632713" />
+	<Mesh name="sponza_331" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="677199" batchCount="6" vertRStart="632714" vertREnd="632719" />
+	<Mesh name="sponza_114" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="677205" batchCount="222" vertRStart="632720" vertREnd="632941" />
+	<Mesh name="sponza_83" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="677427" batchCount="264" vertRStart="632942" vertREnd="633205" />
+	<Mesh name="sponza_52" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="677691" batchCount="336" vertRStart="633206" vertREnd="633541" />
+	<Mesh name="sponza_71" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="678027" batchCount="72" vertRStart="633542" vertREnd="633613">
+		<Mesh name="#sponza_71" material="models/crytek-sponza/details.material.xml" batchStart="678099" batchCount="246" vertRStart="633614" vertREnd="633859" />
+	</Mesh>
+	<Mesh name="sponza_183" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="678345" batchCount="54" vertRStart="633860" vertREnd="633913" />
+	<Mesh name="sponza_65" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="678399" batchCount="120" vertRStart="633914" vertREnd="634033" />
+	<Mesh name="sponza_317" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="678519" batchCount="1368" vertRStart="634034" vertREnd="635401" />
+	<Mesh name="sponza_219" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="679887" batchCount="132" vertRStart="635402" vertREnd="635533" />
+	<Mesh name="sponza_28" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="680019" batchCount="1188" vertRStart="635534" vertREnd="636721" />
+	<Mesh name="sponza_143" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="681207" batchCount="54" vertRStart="636722" vertREnd="636775" />
+	<Mesh name="sponza_90" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="681261" batchCount="264" vertRStart="636776" vertREnd="637039" />
+	<Mesh name="sponza_305" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="681525" batchCount="1368" vertRStart="637040" vertREnd="638407" />
+	<Mesh name="sponza_141" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="682893" batchCount="54" vertRStart="638408" vertREnd="638461" />
+	<Mesh name="sponza_340" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="682947" batchCount="6" vertRStart="638462" vertREnd="638467" />
+	<Mesh name="sponza_323" material="models/crytek-sponza/fabric_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="682953" batchCount="14592" vertRStart="638468" vertREnd="653059" />
+	<Mesh name="sponza_366" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="697545" batchCount="6633" vertRStart="653060" vertREnd="659692">
+		<Mesh name="#sponza_366" material="models/crytek-sponza/Material__57.material.xml" batchStart="704178" batchCount="1404" vertRStart="659693" vertREnd="661096" />
+	</Mesh>
+	<Mesh name="sponza_260" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="705582" batchCount="1368" vertRStart="661097" vertREnd="662464" />
+	<Mesh name="sponza_252" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="706950" batchCount="132" vertRStart="662465" vertREnd="662596" />
+	<Mesh name="sponza_348" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="707082" batchCount="6" vertRStart="662597" vertREnd="662602" />
+	<Mesh name="sponza_135" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="707088" batchCount="498" vertRStart="662603" vertREnd="663100" />
+	<Mesh name="sponza_202" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="707586" batchCount="3660" vertRStart="663101" vertREnd="666760" />
+	<Mesh name="sponza_294" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="711246" batchCount="576" vertRStart="666761" vertREnd="667336" />
+	<Mesh name="sponza_113" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="711822" batchCount="264" vertRStart="667337" vertREnd="667600" />
+	<Mesh name="sponza_108" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="712086" batchCount="264" vertRStart="667601" vertREnd="667864" />
+	<Mesh name="sponza_326" material="models/crytek-sponza/fabric_g.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="712350" batchCount="13824" vertRStart="667865" vertREnd="681688" />
+	<Mesh name="sponza_73" material="models/crytek-sponza/details.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="726174" batchCount="834" vertRStart="681689" vertREnd="682522" />
+	<Mesh name="sponza_278" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="727008" batchCount="11406" vertRStart="682523" vertREnd="693928" />
+	<Mesh name="sponza_285" material="models/crytek-sponza/fabric_e.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="738414" batchCount="16512" vertRStart="693929" vertREnd="710440" />
+	<Mesh name="sponza_337" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="754926" batchCount="3732" vertRStart="710441" vertREnd="714172" />
+	<Mesh name="sponza_96" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="758658" batchCount="222" vertRStart="714173" vertREnd="714394" />
+	<Mesh name="sponza_32" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="758880" batchCount="786" vertRStart="714395" vertREnd="715180" />
+	<Mesh name="sponza_166" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="759666" batchCount="132" vertRStart="715181" vertREnd="715312" />
+	<Mesh name="sponza_234" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="759798" batchCount="498" vertRStart="715313" vertREnd="715810" />
+	<Mesh name="sponza_89" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="760296" batchCount="264" vertRStart="715811" vertREnd="716074" />
+	<Mesh name="sponza_313" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="760560" batchCount="1368" vertRStart="716075" vertREnd="717442" />
+	<Mesh name="sponza_37" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="761928" batchCount="480" vertRStart="717443" vertREnd="717922" />
+	<Mesh name="sponza_376" material="models/crytek-sponza/vase.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="762408" batchCount="6888" vertRStart="717923" vertREnd="724810" />
+	<Mesh name="sponza_53" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="769296" batchCount="480" vertRStart="724811" vertREnd="725290" />
+	<Mesh name="sponza_14" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="769776" batchCount="546" vertRStart="725291" vertREnd="725836" />
+	<Mesh name="sponza_165" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="770322" batchCount="54" vertRStart="725837" vertREnd="725890" />
+	<Mesh name="sponza_288" material="models/crytek-sponza/fabric_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="770376" batchCount="16512" vertRStart="725891" vertREnd="742402" />
+	<Mesh name="sponza_250" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="786888" batchCount="132" vertRStart="742403" vertREnd="742534" />
+	<Mesh name="sponza_198" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="787020" batchCount="54" vertRStart="742535" vertREnd="742588" />
+	<Mesh name="sponza_341" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="787074" batchCount="6" vertRStart="742589" vertREnd="742594" />
+	<Mesh name="sponza_306" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="787080" batchCount="576" vertRStart="742595" vertREnd="743170" />
+	<Mesh name="sponza_375" material="models/crytek-sponza/vase.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="787656" batchCount="6888" vertRStart="743171" vertREnd="750058" />
+	<Mesh name="sponza_188" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="794544" batchCount="132" vertRStart="750059" vertREnd="750190" />
+	<Mesh name="sponza_239" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="794676" batchCount="132" vertRStart="750191" vertREnd="750322" />
+	<Mesh name="sponza_21" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="794808" batchCount="1644" vertRStart="750323" vertREnd="751966" />
+	<Mesh name="sponza_335" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="796452" batchCount="1674" vertRStart="751967" vertREnd="753640" />
+	<Mesh name="sponza_88" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="798126" batchCount="264" vertRStart="753641" vertREnd="753904" />
+	<Mesh name="sponza_111" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="798390" batchCount="264" vertRStart="753905" vertREnd="754168" />
+	<Mesh name="sponza_217" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="798654" batchCount="132" vertRStart="754169" vertREnd="754300" />
+	<Mesh name="sponza_297" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="798786" batchCount="576" vertRStart="754301" vertREnd="754876" />
+	<Mesh name="sponza_196" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="799362" batchCount="54" vertRStart="754877" vertREnd="754930" />
+	<Mesh name="sponza_94" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="799416" batchCount="222" vertRStart="754931" vertREnd="755152" />
+	<Mesh name="sponza_45" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="799638" batchCount="480" vertRStart="755153" vertREnd="755632" />
+	<Mesh name="sponza_380" material="models/crytek-sponza/roof.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="800118" batchCount="1488" vertRStart="755633" vertREnd="757120" />
+	<Mesh name="sponza_179" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="801606" batchCount="498" vertRStart="757121" vertREnd="757618" />
+	<Mesh name="sponza_346" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="802104" batchCount="3732" vertRStart="757619" vertREnd="761350" />
+	<Mesh name="sponza_329" material="models/crytek-sponza/fabric_g.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="805836" batchCount="14592" vertRStart="761351" vertREnd="775942" />
+	<Mesh name="sponza_31" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="820428" batchCount="786" vertRStart="775943" vertREnd="776728" />
+	<Mesh name="sponza_182" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="821214" batchCount="132" vertRStart="776729" vertREnd="776860" />
+	<Mesh name="sponza_154" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="821346" batchCount="54" vertRStart="776861" vertREnd="776914" />
+	<Mesh name="sponza_191" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="821400" batchCount="3660" vertRStart="776915" vertREnd="780574" />
+	<Mesh name="sponza_372" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="825060" batchCount="6633" vertRStart="780575" vertREnd="787207">
+		<Mesh name="#sponza_372" material="models/crytek-sponza/Material__57.material.xml" batchStart="831693" batchCount="1200" vertRStart="787208" vertREnd="788407" />
+	</Mesh>
+	<Mesh name="sponza_304" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="832893" batchCount="1368" vertRStart="788408" vertREnd="789775" />
+	<Mesh name="sponza_321" material="models/crytek-sponza/fabric_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="834261" batchCount="13824" vertRStart="789776" vertREnd="803599" />
+	<Mesh name="sponza_220" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="848085" batchCount="54" vertRStart="803600" vertREnd="803653" />
+	<Mesh name="sponza_163" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="848139" batchCount="54" vertRStart="803654" vertREnd="803707" />
+	<Mesh name="sponza_99" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="848193" batchCount="264" vertRStart="803708" vertREnd="803971" />
+	<Mesh name="sponza_29" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="848457" batchCount="786" vertRStart="803972" vertREnd="804757" />
+	<Mesh name="sponza_19" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="849243" batchCount="6996" vertRStart="804758" vertREnd="811753" />
+	<Mesh name="sponza_126" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="856239" batchCount="54" vertRStart="811754" vertREnd="811807" />
+	<Mesh name="sponza_281" material="models/crytek-sponza/leaf.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="856293" batchCount="9924" vertRStart="811808" vertREnd="821731" />
+	<Mesh name="sponza_221" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="866217" batchCount="132" vertRStart="821732" vertREnd="821863" />
+	<Mesh name="sponza_218" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="866349" batchCount="54" vertRStart="821864" vertREnd="821917" />
+	<Mesh name="sponza_167" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="866403" batchCount="894" vertRStart="821918" vertREnd="822817" />
+	<Mesh name="sponza_136" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="867297" batchCount="3660" vertRStart="822818" vertREnd="826477" />
+	<Mesh name="sponza_129" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="870957" batchCount="132" vertRStart="826478" vertREnd="826609" />
+	<Mesh name="sponza_214" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="871089" batchCount="54" vertRStart="826610" vertREnd="826663" />
+	<Mesh name="sponza_123" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="871143" batchCount="5580" vertRStart="826664" vertREnd="832243" />
+	<Mesh name="sponza_379" material="models/crytek-sponza/bricks.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="876723" batchCount="84" vertRStart="832244" vertREnd="832327" />
+	<Mesh name="sponza_146" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="876807" batchCount="498" vertRStart="832328" vertREnd="832825" />
+	<Mesh name="sponza_272" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="877305" batchCount="678" vertRStart="832826" vertREnd="833503" />
+	<Mesh name="sponza_203" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="877983" batchCount="54" vertRStart="833504" vertREnd="833557" />
+	<Mesh name="sponza_151" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="878037" batchCount="132" vertRStart="833558" vertREnd="833689" />
+	<Mesh name="sponza_237" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="878169" batchCount="132" vertRStart="833690" vertREnd="833821" />
+	<Mesh name="sponza_369" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="878301" batchCount="6633" vertRStart="833822" vertREnd="840454">
+		<Mesh name="#sponza_369" material="models/crytek-sponza/Material__57.material.xml" batchStart="884934" batchCount="1200" vertRStart="840455" vertREnd="841654" />
+	</Mesh>
+	<Mesh name="sponza_48" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="886134" batchCount="336" vertRStart="841655" vertREnd="841990" />
+	<Mesh name="sponza_18" material="models/crytek-sponza/floor.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="886470" batchCount="48" vertRStart="841991" vertREnd="842038" />
+	<Mesh name="sponza_208" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="886518" batchCount="132" vertRStart="842039" vertREnd="842170" />
+	<Mesh name="sponza_17" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="886650" batchCount="8688" vertRStart="842171" vertREnd="850858" />
+	<Mesh name="sponza_368" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="895338" batchCount="6633" vertRStart="850859" vertREnd="857491">
+		<Mesh name="#sponza_368" material="models/crytek-sponza/Material__57.material.xml" batchStart="901971" batchCount="1404" vertRStart="857492" vertREnd="858895" />
+	</Mesh>
+	<Mesh name="sponza_150" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="903375" batchCount="54" vertRStart="858896" vertREnd="858949" />
+	<Mesh name="sponza_211" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="903429" batchCount="894" vertRStart="858950" vertREnd="859849" />
+	<Mesh name="sponza_274" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="904323" batchCount="678" vertRStart="859850" vertREnd="860527" />
+	<Mesh name="sponza_107" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="905001" batchCount="264" vertRStart="860528" vertREnd="860791" />
+	<Mesh name="sponza_269" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="905265" batchCount="1368" vertRStart="860792" vertREnd="862159" />
+	<Mesh name="sponza_120" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="906633" batchCount="1020" vertRStart="862160" vertREnd="863179" />
+	<Mesh name="sponza_365" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="907653" batchCount="810" vertRStart="863180" vertREnd="863989" />
+	<Mesh name="sponza_112" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="908463" batchCount="264" vertRStart="863990" vertREnd="864253" />
+	<Mesh name="sponza_119" material="models/crytek-sponza/column_a.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="908727" batchCount="1020" vertRStart="864254" vertREnd="865273" />
+	<Mesh name="sponza_244" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="909747" batchCount="894" vertRStart="865274" vertREnd="866173" />
+	<Mesh name="sponza_347" material="models/crytek-sponza/vase_hanging.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="910641" batchCount="810" vertRStart="866174" vertREnd="866983" />
+	<Mesh name="sponza_07" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="911451" batchCount="840" vertRStart="866984" vertREnd="867823" />
+	<Mesh name="sponza_320" material="models/crytek-sponza/fabric_g.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="912291" batchCount="14592" vertRStart="867824" vertREnd="882415" />
+	<Mesh name="sponza_41" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="926883" batchCount="480" vertRStart="882416" vertREnd="882895" />
+	<Mesh name="sponza_24" material="models/crytek-sponza/column_c.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="927363" batchCount="786" vertRStart="882896" vertREnd="883681" />
+	<Mesh name="sponza_62" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="928149" batchCount="120" vertRStart="883682" vertREnd="883801" />
+	<Mesh name="sponza_42" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="928269" batchCount="336" vertRStart="883802" vertREnd="884137" />
+	<Mesh name="sponza_152" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="928605" batchCount="54" vertRStart="884138" vertREnd="884191" />
+	<Mesh name="sponza_324" material="models/crytek-sponza/fabric_f.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="928659" batchCount="13824" vertRStart="884192" vertREnd="898015" />
+	<Mesh name="sponza_235" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="942483" batchCount="3660" vertRStart="898016" vertREnd="901675" />
+	<Mesh name="sponza_176" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="946143" batchCount="54" vertRStart="901676" vertREnd="901729" />
+	<Mesh name="sponza_302" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="946197" batchCount="1368" vertRStart="901730" vertREnd="903097" />
+	<Mesh name="sponza_232" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="947565" batchCount="132" vertRStart="903098" vertREnd="903229" />
+	<Mesh name="sponza_248" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="947697" batchCount="132" vertRStart="903230" vertREnd="903361" />
+	<Mesh name="sponza_236" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="947829" batchCount="54" vertRStart="903362" vertREnd="903415" />
+	<Mesh name="sponza_174" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="947883" batchCount="54" vertRStart="903416" vertREnd="903469" />
+	<Mesh name="sponza_253" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="947937" batchCount="54" vertRStart="903470" vertREnd="903523" />
+	<Mesh name="sponza_233" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="947991" batchCount="894" vertRStart="903524" vertREnd="904423" />
+	<Mesh name="sponza_39" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="948885" batchCount="480" vertRStart="904424" vertREnd="904903" />
+	<Mesh name="sponza_339" material="models/crytek-sponza/chain.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="949365" batchCount="6" vertRStart="904904" vertREnd="904909" />
+	<Mesh name="sponza_44" material="models/crytek-sponza/ceiling.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="949371" batchCount="336" vertRStart="904910" vertREnd="905245" />
+	<Mesh name="sponza_193" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="949707" batchCount="132" vertRStart="905246" vertREnd="905377" />
+	<Mesh name="sponza_327" material="models/crytek-sponza/fabric_f.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="949839" batchCount="14592" vertRStart="905378" vertREnd="919969" />
+	<Mesh name="sponza_49" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="964431" batchCount="480" vertRStart="919970" vertREnd="920449" />
+	<Mesh name="sponza_240" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="964911" batchCount="54" vertRStart="920450" vertREnd="920503" />
+	<Mesh name="sponza_153" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="964965" batchCount="132" vertRStart="920504" vertREnd="920635" />
+	<Mesh name="sponza_296" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="965097" batchCount="1368" vertRStart="920636" vertREnd="922003" />
+	<Mesh name="sponza_134" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="966465" batchCount="894" vertRStart="922004" vertREnd="922903" />
+	<Mesh name="sponza_238" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="967359" batchCount="54" vertRStart="922904" vertREnd="922957" />
+	<Mesh name="sponza_377" material="models/crytek-sponza/Material__25.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="967413" batchCount="4563" vertRStart="922958" vertREnd="927520">
+		<Mesh name="#sponza_377" material="models/crytek-sponza/Material__298.material.xml" batchStart="971976" batchCount="4086" vertRStart="927521" vertREnd="931606" />
+	</Mesh>
+	<Mesh name="sponza_319" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="976062" batchCount="1368" vertRStart="931607" vertREnd="932974" />
+	<Mesh name="sponza_371" material="models/crytek-sponza/vase_round.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="977430" batchCount="6633" vertRStart="932975" vertREnd="939607">
+		<Mesh name="#sponza_371" material="models/crytek-sponza/Material__57.material.xml" batchStart="984063" batchCount="1200" vertRStart="939608" vertREnd="940807" />
+	</Mesh>
+	<Mesh name="sponza_206" material="models/crytek-sponza/column_b.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="985263" batchCount="132" vertRStart="940808" vertREnd="940939" />
+	<Mesh name="sponza_58" material="models/crytek-sponza/arch.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="985395" batchCount="120" vertRStart="940940" vertREnd="941059" />
+	<Mesh name="sponza_312" material="models/crytek-sponza/flagpole.material.xml" tx="4.63938" ty="-3.08966" tz="-6.69552" rx="90" ry="0" rz="-0" batchStart="985515" batchCount="576" vertRStart="941060" vertREnd="941635" />
+	<Mesh name="sponza_04" material="models/crytek-sponza/banner.material.xml" rx="90" ry="0" rz="-0" batchStart="986091" batchCount="50688" vertRStart="941636" vertREnd="992323" />
+	<Mesh name="sponza_25_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1036779" batchCount="786" vertRStart="992324" vertREnd="993109" />
+	<Mesh name="sponza_55_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1037565" batchCount="120" vertRStart="993110" vertREnd="993229" />
+	<Mesh name="sponza_56_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1037685" batchCount="120" vertRStart="993230" vertREnd="993349" />
+	<Mesh name="sponza_181_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1037805" batchCount="54" vertRStart="993350" vertREnd="993403" />
+	<Mesh name="sponza_95_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1037859" batchCount="222" vertRStart="993404" vertREnd="993625" />
+	<Mesh name="sponza_110_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1038081" batchCount="264" vertRStart="993626" vertREnd="993889" />
+	<Mesh name="sponza_160_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1038345" batchCount="132" vertRStart="993890" vertREnd="994021" />
+	<Mesh name="sponza_98_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1038477" batchCount="264" vertRStart="994022" vertREnd="994285" />
+	<Mesh name="sponza_68_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1038741" batchCount="54" vertRStart="994286" vertREnd="994339" />
+	<Mesh name="sponza_364_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1038795" batchCount="3732" vertRStart="994340" vertREnd="998071" />
+	<Mesh name="sponza_104_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1042527" batchCount="264" vertRStart="998072" vertREnd="998335" />
+	<Mesh name="sponza_132_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1042791" batchCount="54" vertRStart="998336" vertREnd="998389" />
+	<Mesh name="sponza_207_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1042845" batchCount="54" vertRStart="998390" vertREnd="998443" />
+	<Mesh name="sponza_195_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1042899" batchCount="132" vertRStart="998444" vertREnd="998575" />
+	<Mesh name="sponza_20_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1043031" batchCount="1644" vertRStart="998576" vertREnd="1000219" />
+	<Mesh name="sponza_189_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1044675" batchCount="894" vertRStart="1000220" vertREnd="1001119" />
+	<Mesh name="sponza_222_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1045569" batchCount="894" vertRStart="1001120" vertREnd="1002019" />
+	<Mesh name="sponza_251_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1046463" batchCount="54" vertRStart="1002020" vertREnd="1002073" />
+	<Mesh name="sponza_47_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1046517" batchCount="480" vertRStart="1002074" vertREnd="1002553" />
+	<Mesh name="sponza_215_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1046997" batchCount="132" vertRStart="1002554" vertREnd="1002685" />
+	<Mesh name="sponza_175_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1047129" batchCount="132" vertRStart="1002686" vertREnd="1002817" />
+	<Mesh name="sponza_51_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1047261" batchCount="480" vertRStart="1002818" vertREnd="1003297" />
+	<Mesh name="sponza_229_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1047741" batchCount="54" vertRStart="1003298" vertREnd="1003351" />
+	<Mesh name="sponza_279_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1047795" batchCount="9924" vertRStart="1003352" vertREnd="1013275" />
+	<Mesh name="sponza_23_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1057719" batchCount="786" vertRStart="1013276" vertREnd="1014061" />
+	<Mesh name="sponza_168_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1058505" batchCount="498" vertRStart="1014062" vertREnd="1014559" />
+	<Mesh name="sponza_147_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1059003" batchCount="3660" vertRStart="1014560" vertREnd="1018219" />
+	<Mesh name="sponza_276_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1062663" batchCount="14466" vertRStart="1018220" vertREnd="1032685" />
+	<Mesh name="sponza_158_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1077129" batchCount="3660" vertRStart="1032686" vertREnd="1036345" />
+	<Mesh name="sponza_290_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1080789" batchCount="1368" vertRStart="1036346" vertREnd="1037713" />
+	<Mesh name="sponza_223_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1082157" batchCount="498" vertRStart="1037714" vertREnd="1038211" />
+	<Mesh name="sponza_292_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1082655" batchCount="1368" vertRStart="1038212" vertREnd="1039579" />
+	<Mesh name="sponza_247_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1084023" batchCount="54" vertRStart="1039580" vertREnd="1039633" />
+	<Mesh name="sponza_282_001" material="models/crytek-sponza/fabric_e_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1084077" batchCount="16512" vertRStart="1039634" vertREnd="1056145" />
+	<Mesh name="sponza_130_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1100589" batchCount="54" vertRStart="1056146" vertREnd="1056199" />
+	<Mesh name="sponza_227_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1100643" batchCount="54" vertRStart="1056200" vertREnd="1056253" />
+	<Mesh name="sponza_125_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1100697" batchCount="3660" vertRStart="1056254" vertREnd="1059913" />
+	<Mesh name="sponza_266_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1104357" batchCount="678" vertRStart="1059914" vertREnd="1060591" />
+	<Mesh name="sponza_137_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1105035" batchCount="54" vertRStart="1060592" vertREnd="1060645" />
+	<Mesh name="sponza_12_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1105089" batchCount="546" vertRStart="1060646" vertREnd="1061191" />
+	<Mesh name="sponza_81_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1105635" batchCount="264" vertRStart="1061192" vertREnd="1061455" />
+	<Mesh name="sponza_148_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1105899" batchCount="54" vertRStart="1061456" vertREnd="1061509" />
+	<Mesh name="sponza_268_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1105953" batchCount="1368" vertRStart="1061510" vertREnd="1062877" />
+	<Mesh name="sponza_66_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1107321" batchCount="96" vertRStart="1062878" vertREnd="1062973" />
+	<Mesh name="sponza_85_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1107417" batchCount="264" vertRStart="1062974" vertREnd="1063237" />
+	<Mesh name="sponza_74_001" material="models/crytek-sponza/details_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1107681" batchCount="834" vertRStart="1063238" vertREnd="1064071" />
+	<Mesh name="sponza_231_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1108515" batchCount="54" vertRStart="1064072" vertREnd="1064125" />
+	<Mesh name="sponza_26_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1108569" batchCount="786" vertRStart="1064126" vertREnd="1064911" />
+	<Mesh name="sponza_33_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1109355" batchCount="1188" vertRStart="1064912" vertREnd="1066099" />
+	<Mesh name="sponza_258_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1110543" batchCount="192" vertRStart="1066100" vertREnd="1066291" />
+	<Mesh name="sponza_105_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1110735" batchCount="264" vertRStart="1066292" vertREnd="1066555" />
+	<Mesh name="sponza_60_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1110999" batchCount="120" vertRStart="1066556" vertREnd="1066675" />
+	<Mesh name="sponza_187_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1111119" batchCount="54" vertRStart="1066676" vertREnd="1066729" />
+	<Mesh name="sponza_257_001" material="models/crytek-sponza/Material__47_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1111173" batchCount="54" vertRStart="1066730" vertREnd="1066783" />
+	<Mesh name="sponza_226_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1111227" batchCount="132" vertRStart="1066784" vertREnd="1066915" />
+	<Mesh name="sponza_303_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1111359" batchCount="576" vertRStart="1066916" vertREnd="1067491" />
+	<Mesh name="sponza_82_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1111935" batchCount="264" vertRStart="1067492" vertREnd="1067755" />
+	<Mesh name="sponza_336_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1112199" batchCount="3732" vertRStart="1067756" vertREnd="1071487" />
+	<Mesh name="sponza_363_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1115931" batchCount="3732" vertRStart="1071488" vertREnd="1075219" />
+	<Mesh name="sponza_359_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1119663" batchCount="6" vertRStart="1075220" vertREnd="1075225" />
+	<Mesh name="sponza_300_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1119669" batchCount="576" vertRStart="1075226" vertREnd="1075801" />
+	<Mesh name="sponza_102_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1120245" batchCount="264" vertRStart="1075802" vertREnd="1076065" />
+	<Mesh name="sponza_133_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1120509" batchCount="132" vertRStart="1076066" vertREnd="1076197" />
+	<Mesh name="sponza_328_001" material="models/crytek-sponza/fabric_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1120641" batchCount="13824" vertRStart="1076198" vertREnd="1090021" />
+	<Mesh name="sponza_190_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1134465" batchCount="498" vertRStart="1090022" vertREnd="1090519" />
+	<Mesh name="sponza_170_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1134963" batchCount="54" vertRStart="1090520" vertREnd="1090573" />
+	<Mesh name="sponza_124_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1135017" batchCount="5580" vertRStart="1090574" vertREnd="1096153" />
+	<Mesh name="sponza_241_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1140597" batchCount="132" vertRStart="1096154" vertREnd="1096285" />
+	<Mesh name="sponza_318_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1140729" batchCount="576" vertRStart="1096286" vertREnd="1096861" />
+	<Mesh name="sponza_64_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1141305" batchCount="120" vertRStart="1096862" vertREnd="1096981" />
+	<Mesh name="sponza_77_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1141425" batchCount="222" vertRStart="1096982" vertREnd="1097203" />
+	<Mesh name="sponza_330_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1141647" batchCount="6" vertRStart="1097204" vertREnd="1097209" />
+	<Mesh name="sponza_173_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1141653" batchCount="132" vertRStart="1097210" vertREnd="1097341" />
+	<Mesh name="sponza_86_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1141785" batchCount="264" vertRStart="1097342" vertREnd="1097605" />
+	<Mesh name="sponza_50_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1142049" batchCount="336" vertRStart="1097606" vertREnd="1097941" />
+	<Mesh name="sponza_356_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1142385" batchCount="810" vertRStart="1097942" vertREnd="1098751" />
+	<Mesh name="sponza_142_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1143195" batchCount="132" vertRStart="1098752" vertREnd="1098883" />
+	<Mesh name="sponza_374_001" material="models/crytek-sponza/vase_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1143327" batchCount="6888" vertRStart="1098884" vertREnd="1105771" />
+	<Mesh name="sponza_357_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1150215" batchCount="6" vertRStart="1105772" vertREnd="1105777" />
+	<Mesh name="sponza_230_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1150221" batchCount="132" vertRStart="1105778" vertREnd="1105909" />
+	<Mesh name="sponza_36_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1150353" batchCount="444" vertRStart="1105910" vertREnd="1106353" />
+	<Mesh name="sponza_194_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1150797" batchCount="54" vertRStart="1106354" vertREnd="1106407" />
+	<Mesh name="sponza_311_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1150851" batchCount="1368" vertRStart="1106408" vertREnd="1107775" />
+	<Mesh name="sponza_271_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1152219" batchCount="1368" vertRStart="1107776" vertREnd="1109143" />
+	<Mesh name="sponza_201_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1153587" batchCount="498" vertRStart="1109144" vertREnd="1109641" />
+	<Mesh name="sponza_265_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1154085" batchCount="1368" vertRStart="1109642" vertREnd="1111009" />
+	<Mesh name="sponza_54_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1155453" batchCount="336" vertRStart="1111010" vertREnd="1111345" />
+	<Mesh name="sponza_256_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1155789" batchCount="498" vertRStart="1111346" vertREnd="1111843" />
+	<Mesh name="sponza_309_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1156287" batchCount="576" vertRStart="1111844" vertREnd="1112419" />
+	<Mesh name="sponza_242_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1156863" batchCount="54" vertRStart="1112420" vertREnd="1112473" />
+	<Mesh name="sponza_370_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1156917" batchCount="6633" vertRStart="1112474" vertREnd="1119106">
+		<Mesh name="#sponza_370_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1163550" batchCount="1200" vertRStart="1119107" vertREnd="1120306" />
+	</Mesh>
+	<Mesh name="sponza_254_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1164750" batchCount="132" vertRStart="1120307" vertREnd="1120438" />
+	<Mesh name="sponza_00_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1164882" batchCount="10920" vertRStart="1120439" vertREnd="1131358" />
+	<Mesh name="sponza_162_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1175802" batchCount="132" vertRStart="1131359" vertREnd="1131490" />
+	<Mesh name="sponza_103_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1175934" batchCount="264" vertRStart="1131491" vertREnd="1131754" />
+	<Mesh name="sponza_209_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1176198" batchCount="54" vertRStart="1131755" vertREnd="1131808" />
+	<Mesh name="sponza_16_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1176252" batchCount="546" vertRStart="1131809" vertREnd="1132354" />
+	<Mesh name="sponza_30_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1176798" batchCount="786" vertRStart="1132355" vertREnd="1133140" />
+	<Mesh name="sponza_97_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1177584" batchCount="222" vertRStart="1133141" vertREnd="1133362" />
+	<Mesh name="sponza_213_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1177806" batchCount="3660" vertRStart="1133363" vertREnd="1137022" />
+	<Mesh name="sponza_325_001" material="models/crytek-sponza/fabric_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1181466" batchCount="14592" vertRStart="1137023" vertREnd="1151614" />
+	<Mesh name="sponza_212_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1196058" batchCount="498" vertRStart="1151615" vertREnd="1152112" />
+	<Mesh name="sponza_01_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1196556" batchCount="6633" vertRStart="1152113" vertREnd="1158745">
+		<Mesh name="#sponza_01_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1203189" batchCount="1404" vertRStart="1158746" vertREnd="1160149" />
+	</Mesh>
+	<Mesh name="sponza_67_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1204593" batchCount="840" vertRStart="1160150" vertREnd="1160989" />
+	<Mesh name="sponza_299_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1205433" batchCount="1368" vertRStart="1160990" vertREnd="1162357" />
+	<Mesh name="sponza_333_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1206801" batchCount="6" vertRStart="1162358" vertREnd="1162363" />
+	<Mesh name="sponza_169_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1206807" batchCount="3660" vertRStart="1162364" vertREnd="1166023" />
+	<Mesh name="sponza_315_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1210467" batchCount="576" vertRStart="1166024" vertREnd="1166599" />
+	<Mesh name="sponza_334_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1211043" batchCount="4923" vertRStart="1166600" vertREnd="1171522" />
+	<Mesh name="sponza_128_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1215966" batchCount="54" vertRStart="1171523" vertREnd="1171576" />
+	<Mesh name="sponza_121_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1216020" batchCount="1020" vertRStart="1171577" vertREnd="1172596" />
+	<Mesh name="sponza_354_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1217040" batchCount="3732" vertRStart="1172597" vertREnd="1176328" />
+	<Mesh name="sponza_185_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1220772" batchCount="54" vertRStart="1176329" vertREnd="1176382" />
+	<Mesh name="sponza_43_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1220826" batchCount="480" vertRStart="1176383" vertREnd="1176862" />
+	<Mesh name="sponza_155_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1221306" batchCount="132" vertRStart="1176863" vertREnd="1176994" />
+	<Mesh name="sponza_08_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1221438" batchCount="6996" vertRStart="1176995" vertREnd="1183990" />
+	<Mesh name="sponza_145_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1228434" batchCount="894" vertRStart="1183991" vertREnd="1184890" />
+	<Mesh name="sponza_358_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1229328" batchCount="6" vertRStart="1184891" vertREnd="1184896" />
+	<Mesh name="sponza_61_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1229334" batchCount="120" vertRStart="1184897" vertREnd="1185016" />
+	<Mesh name="sponza_293_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1229454" batchCount="1368" vertRStart="1185017" vertREnd="1186384" />
+	<Mesh name="sponza_57_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1230822" batchCount="120" vertRStart="1186385" vertREnd="1186504" />
+	<Mesh name="sponza_307_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1230942" batchCount="1368" vertRStart="1186505" vertREnd="1187872" />
+	<Mesh name="sponza_295_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1232310" batchCount="1368" vertRStart="1187873" vertREnd="1189240" />
+	<Mesh name="sponza_344_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1233678" batchCount="1674" vertRStart="1189241" vertREnd="1190914" />
+	<Mesh name="sponza_10_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1235352" batchCount="546" vertRStart="1190915" vertREnd="1191460" />
+	<Mesh name="sponza_210_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1235898" batchCount="132" vertRStart="1191461" vertREnd="1191592" />
+	<Mesh name="sponza_289_001" material="models/crytek-sponza/fabric_d_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1236030" batchCount="16512" vertRStart="1191593" vertREnd="1208104" />
+	<Mesh name="sponza_332_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1252542" batchCount="6" vertRStart="1208105" vertREnd="1208110" />
+	<Mesh name="sponza_27_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1252548" batchCount="1188" vertRStart="1208111" vertREnd="1209298" />
+	<Mesh name="sponza_72_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1253736" batchCount="72" vertRStart="1209299" vertREnd="1209370">
+		<Mesh name="#sponza_72_001" material="models/crytek-sponza/details_001.material.xml" batchStart="1253808" batchCount="246" vertRStart="1209371" vertREnd="1209616" />
+	</Mesh>
+	<Mesh name="sponza_177_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1254054" batchCount="132" vertRStart="1209617" vertREnd="1209748" />
+	<Mesh name="sponza_352_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1254186" batchCount="4923" vertRStart="1209749" vertREnd="1214671" />
+	<Mesh name="sponza_259_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1259109" batchCount="678" vertRStart="1214672" vertREnd="1215349" />
+	<Mesh name="sponza_144_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1259787" batchCount="132" vertRStart="1215350" vertREnd="1215481" />
+	<Mesh name="sponza_13_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1259919" batchCount="546" vertRStart="1215482" vertREnd="1216027" />
+	<Mesh name="sponza_172_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1260465" batchCount="54" vertRStart="1216028" vertREnd="1216081" />
+	<Mesh name="sponza_87_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1260519" batchCount="264" vertRStart="1216082" vertREnd="1216345" />
+	<Mesh name="sponza_204_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1260783" batchCount="132" vertRStart="1216346" vertREnd="1216477" />
+	<Mesh name="sponza_161_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1260915" batchCount="54" vertRStart="1216478" vertREnd="1216531" />
+	<Mesh name="sponza_246_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1260969" batchCount="3660" vertRStart="1216532" vertREnd="1220191" />
+	<Mesh name="sponza_224_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1264629" batchCount="3660" vertRStart="1220192" vertREnd="1223851" />
+	<Mesh name="sponza_298_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1268289" batchCount="1368" vertRStart="1223852" vertREnd="1225219" />
+	<Mesh name="sponza_361_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1269657" batchCount="4923" vertRStart="1225220" vertREnd="1230142" />
+	<Mesh name="sponza_59_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1274580" batchCount="120" vertRStart="1230143" vertREnd="1230262" />
+	<Mesh name="sponza_139_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1274700" batchCount="54" vertRStart="1230263" vertREnd="1230316" />
+	<Mesh name="sponza_249_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1274754" batchCount="54" vertRStart="1230317" vertREnd="1230370" />
+	<Mesh name="sponza_308_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1274808" batchCount="1368" vertRStart="1230371" vertREnd="1231738" />
+	<Mesh name="sponza_342_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1276176" batchCount="6" vertRStart="1231739" vertREnd="1231744" />
+	<Mesh name="sponza_149_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1276182" batchCount="132" vertRStart="1231745" vertREnd="1231876" />
+	<Mesh name="sponza_186_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1276314" batchCount="132" vertRStart="1231877" vertREnd="1232008" />
+	<Mesh name="sponza_93_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1276446" batchCount="264" vertRStart="1232009" vertREnd="1232272" />
+	<Mesh name="sponza_263_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1276710" batchCount="1368" vertRStart="1232273" vertREnd="1233640" />
+	<Mesh name="sponza_192_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1278078" batchCount="54" vertRStart="1233641" vertREnd="1233694" />
+	<Mesh name="sponza_216_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1278132" batchCount="54" vertRStart="1233695" vertREnd="1233748" />
+	<Mesh name="sponza_243_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1278186" batchCount="132" vertRStart="1233749" vertREnd="1233880" />
+	<Mesh name="sponza_159_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1278318" batchCount="54" vertRStart="1233881" vertREnd="1233934" />
+	<Mesh name="sponza_273_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1278372" batchCount="1368" vertRStart="1233935" vertREnd="1235302" />
+	<Mesh name="sponza_180_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1279740" batchCount="3660" vertRStart="1235303" vertREnd="1238962" />
+	<Mesh name="sponza_262_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1283400" batchCount="678" vertRStart="1238963" vertREnd="1239640" />
+	<Mesh name="sponza_283_001" material="models/crytek-sponza/fabric_d_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1284078" batchCount="16512" vertRStart="1239641" vertREnd="1256152" />
+	<Mesh name="sponza_22_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1300590" batchCount="1188" vertRStart="1256153" vertREnd="1257340" />
+	<Mesh name="sponza_373_001" material="models/crytek-sponza/vase_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1301778" batchCount="6888" vertRStart="1257341" vertREnd="1264228" />
+	<Mesh name="sponza_301_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1308666" batchCount="1368" vertRStart="1264229" vertREnd="1265596" />
+	<Mesh name="sponza_106_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1310034" batchCount="264" vertRStart="1265597" vertREnd="1265860" />
+	<Mesh name="sponza_261_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1310298" batchCount="1368" vertRStart="1265861" vertREnd="1267228" />
+	<Mesh name="sponza_184_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1311666" batchCount="132" vertRStart="1267229" vertREnd="1267360" />
+	<Mesh name="sponza_138_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1311798" batchCount="132" vertRStart="1267361" vertREnd="1267492" />
+	<Mesh name="sponza_378_001" material="models/crytek-sponza/Material__25_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1311930" batchCount="4563" vertRStart="1267493" vertREnd="1272055">
+		<Mesh name="#sponza_378_001" material="models/crytek-sponza/Material__298_001.material.xml" batchStart="1316493" batchCount="4086" vertRStart="1272056" vertREnd="1276141" />
+	</Mesh>
+	<Mesh name="sponza_92_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1320579" batchCount="264" vertRStart="1276142" vertREnd="1276405" />
+	<Mesh name="sponza_35_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1320843" batchCount="612" vertRStart="1276406" vertREnd="1277017" />
+	<Mesh name="sponza_100_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1321455" batchCount="264" vertRStart="1277018" vertREnd="1277281" />
+	<Mesh name="sponza_171_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1321719" batchCount="132" vertRStart="1277282" vertREnd="1277413" />
+	<Mesh name="sponza_197_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1321851" batchCount="132" vertRStart="1277414" vertREnd="1277545" />
+	<Mesh name="sponza_264_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1321983" batchCount="678" vertRStart="1277546" vertREnd="1278223" />
+	<Mesh name="sponza_157_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1322661" batchCount="498" vertRStart="1278224" vertREnd="1278721" />
+	<Mesh name="sponza_09_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1323159" batchCount="546" vertRStart="1278722" vertREnd="1279267" />
+	<Mesh name="sponza_350_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1323705" batchCount="6" vertRStart="1279268" vertREnd="1279273" />
+	<Mesh name="sponza_355_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1323711" batchCount="3732" vertRStart="1279274" vertREnd="1283005" />
+	<Mesh name="sponza_122_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1327443" batchCount="48" vertRStart="1283006" vertREnd="1283053" />
+	<Mesh name="sponza_255_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1327491" batchCount="894" vertRStart="1283054" vertREnd="1283953" />
+	<Mesh name="sponza_78_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1328385" batchCount="264" vertRStart="1283954" vertREnd="1284217" />
+	<Mesh name="sponza_245_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1328649" batchCount="498" vertRStart="1284218" vertREnd="1284715" />
+	<Mesh name="sponza_127_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1329147" batchCount="132" vertRStart="1284716" vertREnd="1284847" />
+	<Mesh name="sponza_11_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1329279" batchCount="546" vertRStart="1284848" vertREnd="1285393" />
+	<Mesh name="sponza_284_001" material="models/crytek-sponza/fabric_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1329825" batchCount="16512" vertRStart="1285394" vertREnd="1301905" />
+	<Mesh name="sponza_115_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1346337" batchCount="222" vertRStart="1301906" vertREnd="1302127" />
+	<Mesh name="sponza_84_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1346559" batchCount="264" vertRStart="1302128" vertREnd="1302391" />
+	<Mesh name="sponza_381_001" material="models/crytek-sponza/roof_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1346823" batchCount="41964" vertRStart="1302392" vertREnd="1344355" />
+	<Mesh name="sponza_367_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1388787" batchCount="6633" vertRStart="1344356" vertREnd="1350988">
+		<Mesh name="#sponza_367_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1395420" batchCount="1404" vertRStart="1350989" vertREnd="1352392" />
+	</Mesh>
+	<Mesh name="sponza_38_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1396824" batchCount="336" vertRStart="1352393" vertREnd="1352728" />
+	<Mesh name="sponza_69_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1397160" batchCount="108" vertRStart="1352729" vertREnd="1352836" />
+	<Mesh name="sponza_322_001" material="models/crytek-sponza/fabric_f_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1397268" batchCount="14592" vertRStart="1352837" vertREnd="1367428" />
+	<Mesh name="sponza_118_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1411860" batchCount="1020" vertRStart="1367429" vertREnd="1368448" />
+	<Mesh name="sponza_316_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1412880" batchCount="1368" vertRStart="1368449" vertREnd="1369816" />
+	<Mesh name="sponza_116_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1414248" batchCount="150" vertRStart="1369817" vertREnd="1369966" />
+	<Mesh name="sponza_353_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1414398" batchCount="1674" vertRStart="1369967" vertREnd="1371640" />
+	<Mesh name="sponza_280_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1416072" batchCount="13266" vertRStart="1371641" vertREnd="1384906" />
+	<Mesh name="sponza_314_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1429338" batchCount="1368" vertRStart="1384907" vertREnd="1386274" />
+	<Mesh name="sponza_360_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1430706" batchCount="6" vertRStart="1386275" vertREnd="1386280" />
+	<Mesh name="sponza_310_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1430712" batchCount="1368" vertRStart="1386281" vertREnd="1387648" />
+	<Mesh name="sponza_286_001" material="models/crytek-sponza/fabric_d_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1432080" batchCount="16512" vertRStart="1387649" vertREnd="1404160" />
+	<Mesh name="sponza_06_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1448592" batchCount="300" vertRStart="1404161" vertREnd="1404460" />
+	<Mesh name="sponza_164_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1448892" batchCount="132" vertRStart="1404461" vertREnd="1404592" />
+	<Mesh name="sponza_270_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1449024" batchCount="678" vertRStart="1404593" vertREnd="1405270" />
+	<Mesh name="sponza_131_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1449702" batchCount="132" vertRStart="1405271" vertREnd="1405402" />
+	<Mesh name="sponza_70_001" material="models/crytek-sponza/details_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1449834" batchCount="480" vertRStart="1405403" vertREnd="1405882" />
+	<Mesh name="sponza_287_001" material="models/crytek-sponza/fabric_e_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1450314" batchCount="16512" vertRStart="1405883" vertREnd="1422394" />
+	<Mesh name="sponza_199_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1466826" batchCount="132" vertRStart="1422395" vertREnd="1422526" />
+	<Mesh name="sponza_40_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1466958" batchCount="336" vertRStart="1422527" vertREnd="1422862" />
+	<Mesh name="sponza_75_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1467294" batchCount="150" vertRStart="1422863" vertREnd="1423012" />
+	<Mesh name="sponza_76_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1467444" batchCount="222" vertRStart="1423013" vertREnd="1423234" />
+	<Mesh name="sponza_140_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1467666" batchCount="132" vertRStart="1423235" vertREnd="1423366" />
+	<Mesh name="sponza_205_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1467798" batchCount="54" vertRStart="1423367" vertREnd="1423420" />
+	<Mesh name="sponza_351_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1467852" batchCount="6" vertRStart="1423421" vertREnd="1423426" />
+	<Mesh name="sponza_200_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1467858" batchCount="894" vertRStart="1423427" vertREnd="1424326" />
+	<Mesh name="sponza_79_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1468752" batchCount="264" vertRStart="1424327" vertREnd="1424590" />
+	<Mesh name="sponza_46_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1469016" batchCount="336" vertRStart="1424591" vertREnd="1424926" />
+	<Mesh name="sponza_156_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1469352" batchCount="894" vertRStart="1424927" vertREnd="1425826" />
+	<Mesh name="sponza_05_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1470246" batchCount="24" vertRStart="1425827" vertREnd="1425850" />
+	<Mesh name="sponza_275_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1470270" batchCount="17790" vertRStart="1425851" vertREnd="1443640" />
+	<Mesh name="sponza_382_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1488060" batchCount="30" vertRStart="1443641" vertREnd="1443670" />
+	<Mesh name="sponza_101_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1488090" batchCount="264" vertRStart="1443671" vertREnd="1443934" />
+	<Mesh name="sponza_15_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1488354" batchCount="546" vertRStart="1443935" vertREnd="1444480" />
+	<Mesh name="sponza_34_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1488900" batchCount="612" vertRStart="1444481" vertREnd="1445092" />
+	<Mesh name="sponza_80_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1489512" batchCount="264" vertRStart="1445093" vertREnd="1445356" />
+	<Mesh name="sponza_267_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1489776" batchCount="678" vertRStart="1445357" vertREnd="1446034" />
+	<Mesh name="sponza_91_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1490454" batchCount="264" vertRStart="1446035" vertREnd="1446298" />
+	<Mesh name="sponza_338_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1490718" batchCount="810" vertRStart="1446299" vertREnd="1447108" />
+	<Mesh name="sponza_228_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1491528" batchCount="132" vertRStart="1447109" vertREnd="1447240" />
+	<Mesh name="sponza_291_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1491660" batchCount="576" vertRStart="1447241" vertREnd="1447816" />
+	<Mesh name="sponza_109_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1492236" batchCount="264" vertRStart="1447817" vertREnd="1448080" />
+	<Mesh name="sponza_345_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1492500" batchCount="3732" vertRStart="1448081" vertREnd="1451812" />
+	<Mesh name="sponza_343_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1496232" batchCount="4923" vertRStart="1451813" vertREnd="1456735" />
+	<Mesh name="sponza_117_001" material="models/crytek-sponza/floor_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1501155" batchCount="15" vertRStart="1456736" vertREnd="1456750" />
+	<Mesh name="sponza_178_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1501170" batchCount="894" vertRStart="1456751" vertREnd="1457650" />
+	<Mesh name="sponza_03_001" material="models/crytek-sponza/Material__298_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1502064" batchCount="4086" vertRStart="1457651" vertREnd="1461736" />
+	<Mesh name="sponza_277_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1506150" batchCount="6612" vertRStart="1461737" vertREnd="1468348" />
+	<Mesh name="sponza_63_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1512762" batchCount="120" vertRStart="1468349" vertREnd="1468468" />
+	<Mesh name="sponza_362_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1512882" batchCount="1674" vertRStart="1468469" vertREnd="1470142" />
+	<Mesh name="sponza_349_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1514556" batchCount="6" vertRStart="1470143" vertREnd="1470148" />
+	<Mesh name="sponza_225_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1514562" batchCount="54" vertRStart="1470149" vertREnd="1470202" />
+	<Mesh name="sponza_331_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1514616" batchCount="6" vertRStart="1470203" vertREnd="1470208" />
+	<Mesh name="sponza_114_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1514622" batchCount="222" vertRStart="1470209" vertREnd="1470430" />
+	<Mesh name="sponza_83_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1514844" batchCount="264" vertRStart="1470431" vertREnd="1470694" />
+	<Mesh name="sponza_52_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1515108" batchCount="336" vertRStart="1470695" vertREnd="1471030" />
+	<Mesh name="sponza_71_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1515444" batchCount="72" vertRStart="1471031" vertREnd="1471102">
+		<Mesh name="#sponza_71_001" material="models/crytek-sponza/details_001.material.xml" batchStart="1515516" batchCount="246" vertRStart="1471103" vertREnd="1471348" />
+	</Mesh>
+	<Mesh name="sponza_183_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1515762" batchCount="54" vertRStart="1471349" vertREnd="1471402" />
+	<Mesh name="sponza_65_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1515816" batchCount="120" vertRStart="1471403" vertREnd="1471522" />
+	<Mesh name="sponza_317_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1515936" batchCount="1368" vertRStart="1471523" vertREnd="1472890" />
+	<Mesh name="sponza_219_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1517304" batchCount="132" vertRStart="1472891" vertREnd="1473022" />
+	<Mesh name="sponza_28_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1517436" batchCount="1188" vertRStart="1473023" vertREnd="1474210" />
+	<Mesh name="sponza_143_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1518624" batchCount="54" vertRStart="1474211" vertREnd="1474264" />
+	<Mesh name="sponza_90_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1518678" batchCount="264" vertRStart="1474265" vertREnd="1474528" />
+	<Mesh name="sponza_305_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1518942" batchCount="1368" vertRStart="1474529" vertREnd="1475896" />
+	<Mesh name="sponza_141_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1520310" batchCount="54" vertRStart="1475897" vertREnd="1475950" />
+	<Mesh name="sponza_340_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1520364" batchCount="6" vertRStart="1475951" vertREnd="1475956" />
+	<Mesh name="sponza_323_001" material="models/crytek-sponza/fabric_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1520370" batchCount="14592" vertRStart="1475957" vertREnd="1490548" />
+	<Mesh name="sponza_366_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1534962" batchCount="6633" vertRStart="1490549" vertREnd="1497181">
+		<Mesh name="#sponza_366_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1541595" batchCount="1404" vertRStart="1497182" vertREnd="1498585" />
+	</Mesh>
+	<Mesh name="sponza_260_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1542999" batchCount="1368" vertRStart="1498586" vertREnd="1499953" />
+	<Mesh name="sponza_252_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1544367" batchCount="132" vertRStart="1499954" vertREnd="1500085" />
+	<Mesh name="sponza_348_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1544499" batchCount="6" vertRStart="1500086" vertREnd="1500091" />
+	<Mesh name="sponza_135_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1544505" batchCount="498" vertRStart="1500092" vertREnd="1500589" />
+	<Mesh name="sponza_202_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1545003" batchCount="3660" vertRStart="1500590" vertREnd="1504249" />
+	<Mesh name="sponza_294_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1548663" batchCount="576" vertRStart="1504250" vertREnd="1504825" />
+	<Mesh name="sponza_113_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1549239" batchCount="264" vertRStart="1504826" vertREnd="1505089" />
+	<Mesh name="sponza_108_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1549503" batchCount="264" vertRStart="1505090" vertREnd="1505353" />
+	<Mesh name="sponza_326_001" material="models/crytek-sponza/fabric_g_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1549767" batchCount="13824" vertRStart="1505354" vertREnd="1519177" />
+	<Mesh name="sponza_73_001" material="models/crytek-sponza/details_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1563591" batchCount="834" vertRStart="1519178" vertREnd="1520011" />
+	<Mesh name="sponza_278_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1564425" batchCount="11406" vertRStart="1520012" vertREnd="1531417" />
+	<Mesh name="sponza_285_001" material="models/crytek-sponza/fabric_e_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1575831" batchCount="16512" vertRStart="1531418" vertREnd="1547929" />
+	<Mesh name="sponza_337_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1592343" batchCount="3732" vertRStart="1547930" vertREnd="1551661" />
+	<Mesh name="sponza_96_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1596075" batchCount="222" vertRStart="1551662" vertREnd="1551883" />
+	<Mesh name="sponza_32_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1596297" batchCount="786" vertRStart="1551884" vertREnd="1552669" />
+	<Mesh name="sponza_166_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1597083" batchCount="132" vertRStart="1552670" vertREnd="1552801" />
+	<Mesh name="sponza_234_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1597215" batchCount="498" vertRStart="1552802" vertREnd="1553299" />
+	<Mesh name="sponza_89_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1597713" batchCount="264" vertRStart="1553300" vertREnd="1553563" />
+	<Mesh name="sponza_313_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1597977" batchCount="1368" vertRStart="1553564" vertREnd="1554931" />
+	<Mesh name="sponza_37_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1599345" batchCount="480" vertRStart="1554932" vertREnd="1555411" />
+	<Mesh name="sponza_376_001" material="models/crytek-sponza/vase_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1599825" batchCount="6888" vertRStart="1555412" vertREnd="1562299" />
+	<Mesh name="sponza_53_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1606713" batchCount="480" vertRStart="1562300" vertREnd="1562779" />
+	<Mesh name="sponza_14_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1607193" batchCount="546" vertRStart="1562780" vertREnd="1563325" />
+	<Mesh name="sponza_165_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1607739" batchCount="54" vertRStart="1563326" vertREnd="1563379" />
+	<Mesh name="sponza_288_001" material="models/crytek-sponza/fabric_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1607793" batchCount="16512" vertRStart="1563380" vertREnd="1579891" />
+	<Mesh name="sponza_250_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1624305" batchCount="132" vertRStart="1579892" vertREnd="1580023" />
+	<Mesh name="sponza_198_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1624437" batchCount="54" vertRStart="1580024" vertREnd="1580077" />
+	<Mesh name="sponza_341_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1624491" batchCount="6" vertRStart="1580078" vertREnd="1580083" />
+	<Mesh name="sponza_306_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1624497" batchCount="576" vertRStart="1580084" vertREnd="1580659" />
+	<Mesh name="sponza_375_001" material="models/crytek-sponza/vase_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1625073" batchCount="6888" vertRStart="1580660" vertREnd="1587547" />
+	<Mesh name="sponza_188_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1631961" batchCount="132" vertRStart="1587548" vertREnd="1587679" />
+	<Mesh name="sponza_239_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1632093" batchCount="132" vertRStart="1587680" vertREnd="1587811" />
+	<Mesh name="sponza_21_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1632225" batchCount="1644" vertRStart="1587812" vertREnd="1589455" />
+	<Mesh name="sponza_335_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1633869" batchCount="1674" vertRStart="1589456" vertREnd="1591129" />
+	<Mesh name="sponza_88_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1635543" batchCount="264" vertRStart="1591130" vertREnd="1591393" />
+	<Mesh name="sponza_111_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1635807" batchCount="264" vertRStart="1591394" vertREnd="1591657" />
+	<Mesh name="sponza_217_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1636071" batchCount="132" vertRStart="1591658" vertREnd="1591789" />
+	<Mesh name="sponza_297_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1636203" batchCount="576" vertRStart="1591790" vertREnd="1592365" />
+	<Mesh name="sponza_196_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1636779" batchCount="54" vertRStart="1592366" vertREnd="1592419" />
+	<Mesh name="sponza_94_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1636833" batchCount="222" vertRStart="1592420" vertREnd="1592641" />
+	<Mesh name="sponza_45_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1637055" batchCount="480" vertRStart="1592642" vertREnd="1593121" />
+	<Mesh name="sponza_380_001" material="models/crytek-sponza/roof_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1637535" batchCount="1488" vertRStart="1593122" vertREnd="1594609" />
+	<Mesh name="sponza_179_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1639023" batchCount="498" vertRStart="1594610" vertREnd="1595107" />
+	<Mesh name="sponza_346_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1639521" batchCount="3732" vertRStart="1595108" vertREnd="1598839" />
+	<Mesh name="sponza_329_001" material="models/crytek-sponza/fabric_g_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1643253" batchCount="14592" vertRStart="1598840" vertREnd="1613431" />
+	<Mesh name="sponza_31_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1657845" batchCount="786" vertRStart="1613432" vertREnd="1614217" />
+	<Mesh name="sponza_182_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1658631" batchCount="132" vertRStart="1614218" vertREnd="1614349" />
+	<Mesh name="sponza_154_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1658763" batchCount="54" vertRStart="1614350" vertREnd="1614403" />
+	<Mesh name="sponza_191_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1658817" batchCount="3660" vertRStart="1614404" vertREnd="1618063" />
+	<Mesh name="sponza_372_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1662477" batchCount="6633" vertRStart="1618064" vertREnd="1624696">
+		<Mesh name="#sponza_372_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1669110" batchCount="1200" vertRStart="1624697" vertREnd="1625896" />
+	</Mesh>
+	<Mesh name="sponza_304_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1670310" batchCount="1368" vertRStart="1625897" vertREnd="1627264" />
+	<Mesh name="sponza_321_001" material="models/crytek-sponza/fabric_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1671678" batchCount="13824" vertRStart="1627265" vertREnd="1641088" />
+	<Mesh name="sponza_220_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1685502" batchCount="54" vertRStart="1641089" vertREnd="1641142" />
+	<Mesh name="sponza_163_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1685556" batchCount="54" vertRStart="1641143" vertREnd="1641196" />
+	<Mesh name="sponza_99_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1685610" batchCount="264" vertRStart="1641197" vertREnd="1641460" />
+	<Mesh name="sponza_29_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1685874" batchCount="786" vertRStart="1641461" vertREnd="1642246" />
+	<Mesh name="sponza_19_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1686660" batchCount="6996" vertRStart="1642247" vertREnd="1649242" />
+	<Mesh name="sponza_126_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1693656" batchCount="54" vertRStart="1649243" vertREnd="1649296" />
+	<Mesh name="sponza_281_001" material="models/crytek-sponza/leaf_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1693710" batchCount="9924" vertRStart="1649297" vertREnd="1659220" />
+	<Mesh name="sponza_221_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1703634" batchCount="132" vertRStart="1659221" vertREnd="1659352" />
+	<Mesh name="sponza_218_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1703766" batchCount="54" vertRStart="1659353" vertREnd="1659406" />
+	<Mesh name="sponza_167_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1703820" batchCount="894" vertRStart="1659407" vertREnd="1660306" />
+	<Mesh name="sponza_136_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1704714" batchCount="3660" vertRStart="1660307" vertREnd="1663966" />
+	<Mesh name="sponza_129_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1708374" batchCount="132" vertRStart="1663967" vertREnd="1664098" />
+	<Mesh name="sponza_214_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1708506" batchCount="54" vertRStart="1664099" vertREnd="1664152" />
+	<Mesh name="sponza_123_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1708560" batchCount="5580" vertRStart="1664153" vertREnd="1669732" />
+	<Mesh name="sponza_379_001" material="models/crytek-sponza/bricks_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1714140" batchCount="84" vertRStart="1669733" vertREnd="1669816" />
+	<Mesh name="sponza_146_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1714224" batchCount="498" vertRStart="1669817" vertREnd="1670314" />
+	<Mesh name="sponza_272_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1714722" batchCount="678" vertRStart="1670315" vertREnd="1670992" />
+	<Mesh name="sponza_203_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1715400" batchCount="54" vertRStart="1670993" vertREnd="1671046" />
+	<Mesh name="sponza_151_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1715454" batchCount="132" vertRStart="1671047" vertREnd="1671178" />
+	<Mesh name="sponza_237_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1715586" batchCount="132" vertRStart="1671179" vertREnd="1671310" />
+	<Mesh name="sponza_369_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1715718" batchCount="6633" vertRStart="1671311" vertREnd="1677943">
+		<Mesh name="#sponza_369_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1722351" batchCount="1200" vertRStart="1677944" vertREnd="1679143" />
+	</Mesh>
+	<Mesh name="sponza_48_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1723551" batchCount="336" vertRStart="1679144" vertREnd="1679479" />
+	<Mesh name="sponza_18_001" material="models/crytek-sponza/floor_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1723887" batchCount="48" vertRStart="1679480" vertREnd="1679527" />
+	<Mesh name="sponza_208_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1723935" batchCount="132" vertRStart="1679528" vertREnd="1679659" />
+	<Mesh name="sponza_17_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1724067" batchCount="8688" vertRStart="1679660" vertREnd="1688347" />
+	<Mesh name="sponza_368_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1732755" batchCount="6633" vertRStart="1688348" vertREnd="1694980">
+		<Mesh name="#sponza_368_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1739388" batchCount="1404" vertRStart="1694981" vertREnd="1696384" />
+	</Mesh>
+	<Mesh name="sponza_150_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1740792" batchCount="54" vertRStart="1696385" vertREnd="1696438" />
+	<Mesh name="sponza_211_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1740846" batchCount="894" vertRStart="1696439" vertREnd="1697338" />
+	<Mesh name="sponza_274_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1741740" batchCount="678" vertRStart="1697339" vertREnd="1698016" />
+	<Mesh name="sponza_107_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1742418" batchCount="264" vertRStart="1698017" vertREnd="1698280" />
+	<Mesh name="sponza_269_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1742682" batchCount="1368" vertRStart="1698281" vertREnd="1699648" />
+	<Mesh name="sponza_120_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1744050" batchCount="1020" vertRStart="1699649" vertREnd="1700668" />
+	<Mesh name="sponza_365_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1745070" batchCount="810" vertRStart="1700669" vertREnd="1701478" />
+	<Mesh name="sponza_112_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1745880" batchCount="264" vertRStart="1701479" vertREnd="1701742" />
+	<Mesh name="sponza_119_001" material="models/crytek-sponza/column_a_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1746144" batchCount="1020" vertRStart="1701743" vertREnd="1702762" />
+	<Mesh name="sponza_244_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1747164" batchCount="894" vertRStart="1702763" vertREnd="1703662" />
+	<Mesh name="sponza_347_001" material="models/crytek-sponza/vase_hanging_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1748058" batchCount="810" vertRStart="1703663" vertREnd="1704472" />
+	<Mesh name="sponza_07_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1748868" batchCount="840" vertRStart="1704473" vertREnd="1705312" />
+	<Mesh name="sponza_320_001" material="models/crytek-sponza/fabric_g_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1749708" batchCount="14592" vertRStart="1705313" vertREnd="1719904" />
+	<Mesh name="sponza_41_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1764300" batchCount="480" vertRStart="1719905" vertREnd="1720384" />
+	<Mesh name="sponza_24_001" material="models/crytek-sponza/column_c_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1764780" batchCount="786" vertRStart="1720385" vertREnd="1721170" />
+	<Mesh name="sponza_62_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1765566" batchCount="120" vertRStart="1721171" vertREnd="1721290" />
+	<Mesh name="sponza_42_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1765686" batchCount="336" vertRStart="1721291" vertREnd="1721626" />
+	<Mesh name="sponza_152_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1766022" batchCount="54" vertRStart="1721627" vertREnd="1721680" />
+	<Mesh name="sponza_324_001" material="models/crytek-sponza/fabric_f_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1766076" batchCount="13824" vertRStart="1721681" vertREnd="1735504" />
+	<Mesh name="sponza_235_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1779900" batchCount="3660" vertRStart="1735505" vertREnd="1739164" />
+	<Mesh name="sponza_176_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1783560" batchCount="54" vertRStart="1739165" vertREnd="1739218" />
+	<Mesh name="sponza_302_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1783614" batchCount="1368" vertRStart="1739219" vertREnd="1740586" />
+	<Mesh name="sponza_232_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1784982" batchCount="132" vertRStart="1740587" vertREnd="1740718" />
+	<Mesh name="sponza_248_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1785114" batchCount="132" vertRStart="1740719" vertREnd="1740850" />
+	<Mesh name="sponza_236_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1785246" batchCount="54" vertRStart="1740851" vertREnd="1740904" />
+	<Mesh name="sponza_174_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1785300" batchCount="54" vertRStart="1740905" vertREnd="1740958" />
+	<Mesh name="sponza_253_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1785354" batchCount="54" vertRStart="1740959" vertREnd="1741012" />
+	<Mesh name="sponza_233_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1785408" batchCount="894" vertRStart="1741013" vertREnd="1741912" />
+	<Mesh name="sponza_39_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1786302" batchCount="480" vertRStart="1741913" vertREnd="1742392" />
+	<Mesh name="sponza_339_001" material="models/crytek-sponza/chain_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1786782" batchCount="6" vertRStart="1742393" vertREnd="1742398" />
+	<Mesh name="sponza_44_001" material="models/crytek-sponza/ceiling_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1786788" batchCount="336" vertRStart="1742399" vertREnd="1742734" />
+	<Mesh name="sponza_193_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1787124" batchCount="132" vertRStart="1742735" vertREnd="1742866" />
+	<Mesh name="sponza_327_001" material="models/crytek-sponza/fabric_f_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1787256" batchCount="14592" vertRStart="1742867" vertREnd="1757458" />
+	<Mesh name="sponza_49_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1801848" batchCount="480" vertRStart="1757459" vertREnd="1757938" />
+	<Mesh name="sponza_240_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1802328" batchCount="54" vertRStart="1757939" vertREnd="1757992" />
+	<Mesh name="sponza_153_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1802382" batchCount="132" vertRStart="1757993" vertREnd="1758124" />
+	<Mesh name="sponza_296_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1802514" batchCount="1368" vertRStart="1758125" vertREnd="1759492" />
+	<Mesh name="sponza_134_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1803882" batchCount="894" vertRStart="1759493" vertREnd="1760392" />
+	<Mesh name="sponza_238_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1804776" batchCount="54" vertRStart="1760393" vertREnd="1760446" />
+	<Mesh name="sponza_377_001" material="models/crytek-sponza/Material__25_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1804830" batchCount="4563" vertRStart="1760447" vertREnd="1765009">
+		<Mesh name="#sponza_377_001" material="models/crytek-sponza/Material__298_001.material.xml" batchStart="1809393" batchCount="4086" vertRStart="1765010" vertREnd="1769095" />
+	</Mesh>
+	<Mesh name="sponza_319_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1813479" batchCount="1368" vertRStart="1769096" vertREnd="1770463" />
+	<Mesh name="sponza_371_001" material="models/crytek-sponza/vase_round_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1814847" batchCount="6633" vertRStart="1770464" vertREnd="1777096">
+		<Mesh name="#sponza_371_001" material="models/crytek-sponza/Material__57_001.material.xml" batchStart="1821480" batchCount="1200" vertRStart="1777097" vertREnd="1778296" />
+	</Mesh>
+	<Mesh name="sponza_206_001" material="models/crytek-sponza/column_b_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1822680" batchCount="132" vertRStart="1778297" vertREnd="1778428" />
+	<Mesh name="sponza_58_001" material="models/crytek-sponza/arch_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1822812" batchCount="120" vertRStart="1778429" vertREnd="1778548" />
+	<Mesh name="sponza_312_001" material="models/crytek-sponza/flagpole_001.material.xml" rx="90" ry="0" rz="-0" batchStart="1822932" batchCount="576" vertRStart="1778549" vertREnd="1779124" />
+</Model>
